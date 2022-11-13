@@ -13,7 +13,7 @@
             }
             .grid {
                 display: grid;
-                grid-template-columns: 600px 600px;
+                grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
                 column-gap: 10px;
                 row-gap: 10px;
             }
@@ -27,7 +27,7 @@
     <body>
         <div style="text-align: center">
             <h1>The Last Mirror</h1>
-            <div class="grid" style="display: flex; align-items: center; justify-content: center">
+            <div class="grid">
                 <div>
                     <a href="/paginated_list/index.html">
                         <h2>Список с обложками и описниями, поделенный на страницы</h2>
