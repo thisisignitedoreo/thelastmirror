@@ -111,7 +111,7 @@ def build(tree, download):
 </head>
 <body>
     <div style="text-align: center;">""" + "\n".join([f"""
-        <a href="/games/{i["game_id"]}/"><img src="{i["banner"]}" class="banner"><br><h2>{i["title"]}</h2></a> <a href="{"/games/{i["game_id"]}/{i["game_id"]}.torrent" if download else i["dl_link"]}">(скачать)</a>
+        <a href="/games/{i["game_id"]}/"><img src="{i["banner"]}" class="banner"><br><h2>{i["title"]}</h2></a> <a href="{f'''/games/{i["game_id"]}/{i["game_id"]}.torrent''' if download else i["dl_link"]}">(скачать)</a>
         <hr>""" for i in tree]) + f"""
     <div>
 </body>
