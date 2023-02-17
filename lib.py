@@ -158,12 +158,3 @@ def build(tree, download):
 </body>
 </html>""")
 
-
-parsed = parse()
-
-with open("index.json", "w") as f:
-    f.write(json.dumps(parsed))
-
-# build([{"title": "title", "description": "description", "dl_link": "https://example.com ", "banner": "http://placekitten.com/1281/720", "screenshots": ["http://placekitten.com/1280/721", "http://placekitten.com/1280/720"], "game_info": "game_info", "game_id": "game-id"}], False)
-
-build(parsed, True)
