@@ -1,0 +1,31 @@
+name: "build"
+on: [ push, pull_request ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+          
+      - name: install libs
+        run: pip install BeautifulSoup4 requests
+      - name: Run build script
+        run: python build.py
+      - name: auth
+        run: git config --global user.email "oreoignter@gmail.com"
+      - name: auth
+        run: git config --global user.name "thisisignitedoreo"
+      - name: stage changed files
+        run: git add index.html games/ index.json
+      - name: commit changed files
+        run: git commit -m "[TLM] Auto-rebuild"
+      - name: fetch from master
+        run: git fetch origin master
+      - name: push code to master
+        uses: ad-m/github-push-action@master
+        with:
+          branch: master
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force: true
