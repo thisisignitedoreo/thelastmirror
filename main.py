@@ -75,8 +75,6 @@ def parse():
                         "game_info": game_info.replace("\nИнформация о игре", "Информация о игре\n")[:-2],
                         "game_id": url_to_game.replace(website, "")[1:-1]
                     })
-                    print(all)
-                    exit()
                 except Exception as err:
                     problem_count += 1
                     print(f"Skipped! Cause: {err}")
@@ -155,7 +153,7 @@ def build(tree, download):
         <h5>description</h5>
         {nl_.join([f'''<img src="{j}" class="screenshot"><br>
         <p style="font-size: 10px;">Скриншот {k}</p>''' for k, j in enumerate(i["screenshots"])])}
-        <a href="{f"/games/{i['game-id']}/{i['game-id']}.torrent" if download else i["dl_link"]}"><h1>Скачать .torrent</h1></a>
+        <a href="{f"/games/{i['game_id']}/{i['game_id']}.torrent" if download else i["dl_link"]}"><h1>Скачать .torrent</h1></a>
     </div>
 </body>
 </html>""")
