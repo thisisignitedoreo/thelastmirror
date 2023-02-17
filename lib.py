@@ -1,8 +1,11 @@
 from bs4 import BeautifulSoup
 from bs4 import Comment
-import requests
+import requests as req
 import json
 import os
+
+requests = req.Session()
+requests.max_redirects = 99999 # dont blame me plz
 
 nl_ = "\n"
 
