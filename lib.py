@@ -79,7 +79,7 @@ def parse(download):
                         "game_id": url_to_game.replace(website, "")[1:-1]
                     })
                     if download:
-                        open(f"games/{i['game_id']}/{i['game_id']}.torrent", "wb").write(requests.get(gamesoup.select_one(".btn_green")["href"]).content)
+                        open(f"games/{url_to_game.replace(website, "")[1:-1]}/{url_to_game.replace(website, "")[1:-1]}.torrent", "wb").write(requests.get(gamesoup.select_one(".btn_green")["href"]).content)
                 except Exception as err:
                     problem_count += 1
                     print(f"Skipped! Cause: {err}\nProblems already: {problem_count}")
