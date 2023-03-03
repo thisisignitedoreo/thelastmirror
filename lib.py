@@ -20,6 +20,8 @@ def flatten_list(_2d_list):
     return flat_list
 
 def parse(download):
+    if not os.path.isdir("games"):
+        os.mkdir("games")
     problem_count = 0
     all = []
     try:
@@ -78,6 +80,8 @@ def parse(download):
                         "game_info": game_info.replace("\nИнформация о игре", "Информация о игре\n")[:-2],
                         "game_id": url_to_game.replace(website, "")[1:-1]
                     })
+                    if not os.path.isdir(f"games/{url_to_game.replace(website, '')[1:-1]}"):
+                        os.mkdir(f"games/{url_to_game.replace(website, '')[1:-1]}")
                     if download:
                         open(f"games/{url_to_game.replace(website, '')[1:-1]}/{url_to_game.replace(website, '')[1:-1]}.torrent", "wb").write(requests.get(gamesoup.select_one(".btn_green")["href"]).content)
                 except Exception as err:
@@ -91,8 +95,6 @@ def parse(download):
         return all
 
 def build(tree, download):
-    if not os.path.isdir("games"):
-        os.mkdir("games")
     open("index.html", "w").write("""<html>
 <head>
     <title>TheLastMirror</title>
@@ -123,8 +125,6 @@ def build(tree, download):
 
     for k, i in enumerate(tree):
         print(f"Building game {k}/{length} ({round(k / length * 100)}%)")
-        if not os.path.isdir(f"games/{i['game_id']}"):
-            os.mkdir(f"games/{i['game_id']}")
         
         open(f"games/{i['game_id']}/index.html", "w").write("""<html>
 <head>
