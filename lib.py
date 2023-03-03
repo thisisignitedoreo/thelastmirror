@@ -93,7 +93,6 @@ def parse(download):
 def build(tree, download):
     if not os.path.isdir("games"):
         os.mkdir("games")
-    
     open("index.html", "w").write("""<html>
 <head>
     <title>TheLastMirror</title>
