@@ -19,7 +19,7 @@
 <link rel="alternate" type="application/rss+xml" title="Скачать игры последней версии бесплатно торрентом &raquo; Лента" href="https://thelastgame.ru/feed/" />
 <link rel="alternate" type="application/rss+xml" title="Скачать игры последней версии бесплатно торрентом &raquo; Лента комментариев" href="https://thelastgame.ru/comments/feed/" />
 <link id="hu-user-gfont" href="//fonts.googleapis.com/css?family=Ubuntu:400,400italic,300italic,300,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">		<script type="text/javascript">
-			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/thelastgame.ru\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.13"}};
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/thelastgame.ru\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.18"}};
 			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])?!1:!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
 		</script>
 		<style type="text/css">
@@ -37,7 +37,7 @@ img.emoji {
 }
 </style>
 	<link rel='stylesheet' id='pt-cv-public-style-css'  href='https://thelastgame.ru/wp-content/plugins/content-views-query-and-display-post-page/public/assets/css/cv.css?ver=2.1.3.2' type='text/css' media='all' />
-<link rel='stylesheet' id='wp-block-library-css'  href='https://thelastgame.ru/wp-includes/css/dist/block-library/style.min.css?ver=5.2.13' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://thelastgame.ru/wp-includes/css/dist/block-library/style.min.css?ver=5.2.18' type='text/css' media='all' />
 <link rel='stylesheet' id='hueman-main-style-css'  href='https://thelastgame.ru/wp-content/themes/hueman/assets/front/css/main.min.css?ver=3.3.6' type='text/css' media='all' />
 <link rel='stylesheet' id='theme-stylesheet-css'  href='https://thelastgame.ru/wp-content/themes/hueman/style.css?ver=3.3.6' type='text/css' media='all' />
 <link rel='stylesheet' id='hueman-font-awesome-css'  href='https://thelastgame.ru/wp-content/themes/hueman/assets/front/css/font-awesome.min.css?ver=3.3.6' type='text/css' media='all' />
@@ -47,7 +47,7 @@ img.emoji {
 <link rel='https://api.w.org/' href='https://thelastgame.ru/wp-json/' />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://thelastgame.ru/xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://thelastgame.ru/wp-includes/wlwmanifest.xml" /> 
-<meta name="generator" content="WordPress 5.2.13" />
+<meta name="generator" content="WordPress 5.2.18" />
 <!--[if lt IE 9]>
 <script src="https://thelastgame.ru/wp-content/themes/hueman/assets/front/js/ie/html5shiv-printshiv.min.js"></script>
 <script src="https://thelastgame.ru/wp-content/themes/hueman/assets/front/js/ie/selectivizr.js"></script>
@@ -302,12 +302,12 @@ margin-top:-30px;
 								<li>
 
 										<div class="tab-item-thumbnail">
-						<a href="https://thelastgame.ru/unturned/" title="Unturned v3.22.19.2">
+						<a href="https://thelastgame.ru/unturned/" title="Unturned v3.23.8.0">
 							<img  width="160" height="160"  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://thelastgame.ru/wp-content/uploads/2017/10/header-8-160x160.jpg"  class="attachment-thumb-small size-thumb-small wp-post-image" alt="" data-srcset="https://thelastgame.ru/wp-content/uploads/2017/10/header-8-160x160.jpg 160w, https://thelastgame.ru/wp-content/uploads/2017/10/header-8-150x150.jpg 150w, https://thelastgame.ru/wp-content/uploads/2017/10/header-8-320x320.jpg 320w" data-sizes="(max-width: 160px) 100vw, 160px" />																											</a>
 					</div>
 					
 					<div class="tab-item-inner group">
-												<p class="tab-item-title"><a href="https://thelastgame.ru/unturned/" rel="bookmark" title="Unturned v3.22.19.2">Unturned v3.22.19.2</a></p>
+												<p class="tab-item-title"><a href="https://thelastgame.ru/unturned/" rel="bookmark" title="Unturned v3.23.8.0">Unturned v3.23.8.0</a></p>
 											</div>
 
 				</li>
@@ -328,12 +328,12 @@ margin-top:-30px;
 				<li>
 
 						<div class="post-item-thumbnail">
-				<a href="https://thelastgame.ru/pc-building-simulator-2/" title="PC Building Simulator 2">
-					<img  width="520" height="245"  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://thelastgame.ru/wp-content/uploads/2022/06/Snimok-ekrana-2022-06-11-143203-520x245.jpg"  class="attachment-thumb-medium size-thumb-medium wp-post-image" alt="" data-srcset="https://thelastgame.ru/wp-content/uploads/2022/06/Snimok-ekrana-2022-06-11-143203-520x245.jpg 520w, https://thelastgame.ru/wp-content/uploads/2022/06/Snimok-ekrana-2022-06-11-143203-720x340.jpg 720w" data-sizes="(max-width: 520px) 100vw, 520px" />																			</a>
+				<a href="https://thelastgame.ru/amnesia-the-bunker/" title="Amnesia: The Bunker">
+					<img  width="520" height="245"  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://thelastgame.ru/wp-content/uploads/2023/05/header-36-520x245.jpg"  class="attachment-thumb-medium size-thumb-medium wp-post-image" alt="" data-srcset="https://thelastgame.ru/wp-content/uploads/2023/05/header-36-520x245.jpg 520w, https://thelastgame.ru/wp-content/uploads/2023/05/header-36-300x140.jpg 300w, https://thelastgame.ru/wp-content/uploads/2023/05/header-36-720x340.jpg 720w" data-sizes="(max-width: 520px) 100vw, 520px" />																			</a>
 			</div>
 			
 			<div class="post-item-inner group">
-				<p class="post-item-category"><a href="https://thelastgame.ru/category/hot/" rel="category tag">Горячая новинка</a> / <a href="https://thelastgame.ru/category/simulator/" rel="category tag">Симуляторы</a></p>				<p class="post-item-title"><a href="https://thelastgame.ru/pc-building-simulator-2/" rel="bookmark" title="PC Building Simulator 2">PC Building Simulator 2</a></p>
+				<p class="post-item-category"><a href="https://thelastgame.ru/category/hot/" rel="category tag">Горячая новинка</a> / <a href="https://thelastgame.ru/category/adventure/" rel="category tag">Приключения</a> / <a href="https://thelastgame.ru/category/horror/" rel="category tag">Хоррор \ Ужасы</a> / <a href="https://thelastgame.ru/category/action/" rel="category tag">Экшн</a></p>				<p class="post-item-title"><a href="https://thelastgame.ru/amnesia-the-bunker/" rel="bookmark" title="Amnesia: The Bunker">Amnesia: The Bunker</a></p>
 							</div>
 
 		</li>
@@ -347,12 +347,12 @@ margin-top:-30px;
 				<li>
 
 						<div class="post-item-thumbnail">
-				<a href="https://thelastgame.ru/20-minutes-till-dawn/" title="20 Minutes Till Dawn">
-					<img  width="520" height="245"  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://thelastgame.ru/wp-content/uploads/2022/06/header-7-520x245.jpg"  class="attachment-thumb-medium size-thumb-medium wp-post-image" alt="" data-srcset="https://thelastgame.ru/wp-content/uploads/2022/06/header-7-520x245.jpg 520w, https://thelastgame.ru/wp-content/uploads/2022/06/header-7-300x140.jpg 300w, https://thelastgame.ru/wp-content/uploads/2022/06/header-7-720x340.jpg 720w" data-sizes="(max-width: 520px) 100vw, 520px" />																			</a>
+				<a href="https://thelastgame.ru/grounded/" title="Grounded">
+					<img  width="520" height="245"  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://thelastgame.ru/wp-content/uploads/2022/09/header_alt_assets_0_russian-520x245.jpg"  class="attachment-thumb-medium size-thumb-medium wp-post-image" alt="" data-srcset="https://thelastgame.ru/wp-content/uploads/2022/09/header_alt_assets_0_russian-520x245.jpg 520w, https://thelastgame.ru/wp-content/uploads/2022/09/header_alt_assets_0_russian-300x140.jpg 300w, https://thelastgame.ru/wp-content/uploads/2022/09/header_alt_assets_0_russian-720x340.jpg 720w" data-sizes="(max-width: 520px) 100vw, 520px" />																			</a>
 			</div>
 			
 			<div class="post-item-inner group">
-								<p class="post-item-title"><a href="https://thelastgame.ru/20-minutes-till-dawn/" rel="bookmark" title="20 Minutes Till Dawn">20 Minutes Till Dawn</a></p>
+								<p class="post-item-title"><a href="https://thelastgame.ru/grounded/" rel="bookmark" title="Grounded">Grounded</a></p>
 							</div>
 
 		</li>
@@ -455,7 +455,7 @@ margin-top:-30px;
                               <p>
 			
 
-Скачать игры последней версии бесплатно торрентом &copy; 2022. All Rights Reserved.</p>
+Скачать игры последней версии бесплатно торрентом &copy; 2023. All Rights Reserved.</p>
 	<noindex><nofollow>
 <!--LiveInternet counter--><script type="text/javascript">
 document.write("<a href='//www.liveinternet.ru/click' "+
@@ -493,7 +493,7 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
 
 <script type='text/javascript'>
 /* <![CDATA[ */
-var PT_CV_PUBLIC = {"_prefix":"pt-cv-","page_to_show":"5","_nonce":"10a80ff0eb","is_admin":"","is_mobile":"","ajaxurl":"https:\/\/thelastgame.ru\/wp-admin\/admin-ajax.php","lang":"","loading_image_src":"data:image\/gif;base64,R0lGODlhDwAPALMPAMrKygwMDJOTkz09PZWVla+vr3p6euTk5M7OzuXl5TMzMwAAAJmZmWZmZszMzP\/\/\/yH\/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgAPACwAAAAADwAPAAAEQvDJaZaZOIcV8iQK8VRX4iTYoAwZ4iCYoAjZ4RxejhVNoT+mRGP4cyF4Pp0N98sBGIBMEMOotl6YZ3S61Bmbkm4mAgAh+QQFCgAPACwAAAAADQANAAAENPDJSRSZeA418itN8QiK8BiLITVsFiyBBIoYqnoewAD4xPw9iY4XLGYSjkQR4UAUD45DLwIAIfkEBQoADwAsAAAAAA8ACQAABC\/wyVlamTi3nSdgwFNdhEJgTJoNyoB9ISYoQmdjiZPcj7EYCAeCF1gEDo4Dz2eIAAAh+QQFCgAPACwCAAAADQANAAAEM\/DJBxiYeLKdX3IJZT1FU0iIg2RNKx3OkZVnZ98ToRD4MyiDnkAh6BkNC0MvsAj0kMpHBAAh+QQFCgAPACwGAAAACQAPAAAEMDC59KpFDll73HkAA2wVY5KgiK5b0RRoI6MuzG6EQqCDMlSGheEhUAgqgUUAFRySIgAh+QQFCgAPACwCAAIADQANAAAEM\/DJKZNLND\/kkKaHc3xk+QAMYDKsiaqmZCxGVjSFFCxB1vwy2oOgIDxuucxAMTAJFAJNBAAh+QQFCgAPACwAAAYADwAJAAAEMNAs86q1yaWwwv2Ig0jUZx3OYa4XoRAfwADXoAwfo1+CIjyFRuEho60aSNYlOPxEAAAh+QQFCgAPACwAAAIADQANAAAENPA9s4y8+IUVcqaWJ4qEQozSoAzoIyhCK2NFU2SJk0hNnyEOhKR2AzAAj4Pj4GE4W0bkJQIAOw=="};
+var PT_CV_PUBLIC = {"_prefix":"pt-cv-","page_to_show":"5","_nonce":"221a111704","is_admin":"","is_mobile":"","ajaxurl":"https:\/\/thelastgame.ru\/wp-admin\/admin-ajax.php","lang":"","loading_image_src":"data:image\/gif;base64,R0lGODlhDwAPALMPAMrKygwMDJOTkz09PZWVla+vr3p6euTk5M7OzuXl5TMzMwAAAJmZmWZmZszMzP\/\/\/yH\/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgAPACwAAAAADwAPAAAEQvDJaZaZOIcV8iQK8VRX4iTYoAwZ4iCYoAjZ4RxejhVNoT+mRGP4cyF4Pp0N98sBGIBMEMOotl6YZ3S61Bmbkm4mAgAh+QQFCgAPACwAAAAADQANAAAENPDJSRSZeA418itN8QiK8BiLITVsFiyBBIoYqnoewAD4xPw9iY4XLGYSjkQR4UAUD45DLwIAIfkEBQoADwAsAAAAAA8ACQAABC\/wyVlamTi3nSdgwFNdhEJgTJoNyoB9ISYoQmdjiZPcj7EYCAeCF1gEDo4Dz2eIAAAh+QQFCgAPACwCAAAADQANAAAEM\/DJBxiYeLKdX3IJZT1FU0iIg2RNKx3OkZVnZ98ToRD4MyiDnkAh6BkNC0MvsAj0kMpHBAAh+QQFCgAPACwGAAAACQAPAAAEMDC59KpFDll73HkAA2wVY5KgiK5b0RRoI6MuzG6EQqCDMlSGheEhUAgqgUUAFRySIgAh+QQFCgAPACwCAAIADQANAAAEM\/DJKZNLND\/kkKaHc3xk+QAMYDKsiaqmZCxGVjSFFCxB1vwy2oOgIDxuucxAMTAJFAJNBAAh+QQFCgAPACwAAAYADwAJAAAEMNAs86q1yaWwwv2Ig0jUZx3OYa4XoRAfwADXoAwfo1+CIjyFRuEho60aSNYlOPxEAAAh+QQFCgAPACwAAAIADQANAAAENPA9s4y8+IUVcqaWJ4qEQozSoAzoIyhCK2NFU2SJk0hNnyEOhKR2AzAAj4Pj4GE4W0bkJQIAOw=="};
 var PT_CV_PAGINATION = {"first":"\u00ab","prev":"\u2039","next":"\u203a","last":"\u00bb","goto_first":"\u041d\u0430 \u043f\u0435\u0440\u0432\u0443\u044e \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0443","goto_prev":"\u041d\u0430 \u043f\u0440\u0435\u0434\u044b\u0434\u0443\u0449\u0443\u044e \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0443","goto_next":"\u041d\u0430 \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0443\u044e \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0443","goto_last":"\u041d\u0430 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u044e\u044e \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0443","current_page":"\u0422\u0435\u043a\u0443\u0449\u0430\u044f \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430","goto_page":"\u041d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0443"};
 /* ]]> */
 </script>
@@ -523,7 +523,7 @@ jQuery(easy_fancybox_auto);
 </script>
 <script type='text/javascript' src='https://thelastgame.ru/wp-content/plugins/easy-fancybox/js/jquery.easing.min.js?ver=1.4.1'></script>
 <script type='text/javascript' src='https://thelastgame.ru/wp-content/plugins/easy-fancybox/js/jquery.mousewheel.min.js?ver=3.1.13'></script>
-<script type='text/javascript' src='https://thelastgame.ru/wp-includes/js/wp-embed.min.js?ver=5.2.13'></script>
+<script type='text/javascript' src='https://thelastgame.ru/wp-includes/js/wp-embed.min.js?ver=5.2.18'></script>
 <!--[if lt IE 9]>
 <script src="https://thelastgame.ru/wp-content/themes/hueman/assets/front/js/ie/respond.js"></script>
 <![endif]-->
