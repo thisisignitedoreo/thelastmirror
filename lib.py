@@ -184,7 +184,7 @@ def build(allGamesName):
             tname = re.sub(j, '-' * len(j), tname.replace('.torrent', ''), flags=re.IGNORECASE) + ".torrent"
 
         name_html += f"""
-                <p><a href="/games/{fix_name(game["name"])}/index.html">{game["name"]}</a> <a href="/games/{fix_name(game["name"])}/{tname}">(скачать)</a></p>"""
+                <p><a href="/games/{game['slug']}/index.html">{game["name"]}</a> <a href="/games/{game['slug']}/{tname}">(скачать)</a></p>"""
 
     name_html += """
             </div>
@@ -237,12 +237,12 @@ def build(allGamesName):
         for k, i in enumerate(pg):
             paginated_html += f"""
                     <div>
-                        <a href="/games/{fix_name(i["name"])}/index.html">
+                        <a href="/games/{i['slug']}/index.html">
                             <img src="{'https://thelastmirror.tk/bad_image.png' if i["image"] == "bad_image.png" else i["image"]}">
                         </a>
                         <h3>{i["name"]}</h3>
                         <p>{i["description"]}...</p>
-                        <a href="/games/{fix_name(i["name"])}/index.html" class="big_a">Подробнее...</a>
+                        <a href="/games/{i['slug']}/index.html" class="big_a">Подробнее...</a>
                     </div>"""
 
         paginated_html += """</div>
@@ -287,7 +287,6 @@ def build(allGamesName):
                     os.remove(f"games/{game['slug']}/{game['image'].split('/')[-1]}")
                 except:
                     print("Nope")
-
         try:
             if not os.path.isfile(f"games/{game['slug']}/{tname}"):
                 with open(f"games/{game['slug']}/{tname}", "wb") as f:
@@ -338,7 +337,7 @@ def build(allGamesName):
                 <h1>{game["name"]}</h1>
                 <h5>{game["full_description"]}</h5>""" + f"""
                 {'''
-    '''.join(['<img class="screenshot" src="' + i + '">' for i in game["screenshots"]])}<br>""" + f"""
+    '''.join(['<img class="screenshot" src="' + i + '"><br><p>Скриншот #' + str(k) + '</p>' for k, i in enumerate(game["screenshots"])])}<br>""" + f"""
                 <a class="big_a" href="/games/{game['slug']}/{tname}">Скачать .torrent</a>
             </div>
         </body>
