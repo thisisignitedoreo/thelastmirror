@@ -373,14 +373,14 @@ def build(allGamesName):
             <meta property="og:url" content="https://thelastmirror.tk/">
             <meta property="og:title" content="{game["name"]} - TheLastMirror">
             <meta property="og:description" content="{game["full_description"]}...">
-            <meta property="og:image" content="https://thelastmirror.tk/promo.png">
+            <meta property="og:image" content="{game["image"]}">
 
             <!-- Twitter -->
             <meta property="twitter:card" content="summary_large_image">
             <meta property="twitter:url" content="https://thelastmirror.tk/">
             <meta property="twitter:title" content="{game["name"]} - TheLastMirror">
             <meta property="twitter:description" content="{game["full_description"]}...">
-            <meta property="twitter:image" content="https://thelastmirror.tk/promo.png">
+            <meta property="twitter:image" content="{game["image"]}">
         </head>
         <body>
             <div style="text-align: center">
