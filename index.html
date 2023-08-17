@@ -44,15 +44,16 @@
     <body>
         <div style="text-align: center">
             <h1>The Last Mirror</h1>
-            <div class="grid">
+	    <p id="motd">motd не отрисовался ;( у вас что-то с браузером</p>
+	    <div class="grid">
                 <div>
-                    <a href="/paginated_list/index.html">
+                    <a href="/paginated-list/">
                         <h2>Список с обложками и описниями, поделенный на страницы</h2>
                         <img src="screenshot_1.png">
                     </a>
                 </div>
                 <div>
-                    <a href="/name_list/index.html">
+                    <a href="/name-list/">
                         <h2>Полный список имен</h2>
                         <img src="screenshot_2.png">
                     </a>
@@ -60,5 +61,14 @@
             </div>
             <h6 style="color: #555555">Некоторые игры могут быть без баннера или описания, это нормально, ссылка на скачивание все-равно работает.</h6>
         </div>
+	<script>
+		function choose(choices) {
+			var index = Math.floor(Math.random() * choices.length);
+			return choices[index];
+		}
+		
+		var motds = ["привет скучающим!", "<a href=\"/games/hentai-girl-linda/\">hehehe</a>", "лол кек чебубек", "+PARRY +ULTRARICOSHOT x4", "сайт открываеться даже с проверками от ростелекома - качайте игры хоть в школе :sunglasses:", "сайт от <a href=\"https://github.com/thisisignitedoreo/\">acid</a>", "bruh", "че зыришь?", ":skull:"];
+		document.getElementById("motd").innerHTML = choose(motds);
+	</script>
     </body>
 </html>

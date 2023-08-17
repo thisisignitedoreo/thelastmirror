@@ -9,11 +9,11 @@ import json
 import os
 import re
 
-if not os.path.isdir("name_list"):
-    os.mkdir("name_list")
+if not os.path.isdir("name-list"):
+    os.mkdir("name-list")
 
-if not os.path.isdir("paginated_list"):
-    os.mkdir("paginated_list")
+if not os.path.isdir("paginated-list"):
+    os.mkdir("paginated-list")
 
 if not os.path.isdir("games"):
     os.mkdir("games")
@@ -125,6 +125,7 @@ def build(allGamesName, down_all):
 
     filtered_words = ["horny", "hentai", "голые", "сиськ", "dragon ball", "counter-strike", "street fighter", "freaky", "undress", "seduc"]
     mask = "*"
+    motd = ["привет скучающим!", "<a href=\"/games/hentai-girl-linda/\">hehehe</a>", "лол кек чебубек", "+PARRY +ULTRARICOSHOT x4", "сайт открываеться даже с проверками от ростелекома - качайте игры хоть в школе :sunglasses:", "сайт от <a href=\"https://github.com/thisisignitedoreo/\">acid</a>", "bruh", "че зыришь?", ":skull:"]
 
     print("Deleting bad words")
     lowered_name, lowered_desc, lowered_fdesc = "", "", ""
@@ -138,6 +139,85 @@ def build(allGamesName, down_all):
     game_per_page = 28
     max_page = len(allGamesName) // game_per_page
     pages = reshape(allGamesName, [1, game_per_page])
+
+    print("Constructing index")
+
+    index_html = r"""<!doctype html>
+<html>
+    <head>
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+            :root {
+                font-family: "Lato", sans-serif;
+                background-color: rgb(18, 18, 18);
+                color: #ffffff;
+            }
+            a {
+                color: #9999ff;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+                column-gap: 10px;
+                row-gap: 10px;
+            }
+            .big_a {
+                font-size: 24px;
+            }
+        </style>
+        <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/thisisignitedoreo/thelastmirror/master/favicon.ico">
+        <title>The Last Mirror</title>
+        <!-- Primary Meta Tags -->
+        <meta name="title" content="TheLastMirror - Зеркало игр">
+        <meta name="description" content="Здесь ты можешь найти целую кучу игр, часто обновляющихся, от старых до новых.">
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://thelastmirror.tk/">
+        <meta property="og:title" content="TheLastMirror - Зеркало игр">
+        <meta property="og:description" content="Здесь ты можешь найти целую кучу игр, часто обновляющихся, от старых до новых.">
+        <meta property="og:image" content="https://thelastmirror.tk/promo.png">
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://thelastmirror.tk/">
+        <meta property="twitter:title" content="TheLastMirror - Зеркало игр">
+        <meta property="twitter:description" content="Здесь ты можешь найти целую кучу игр, часто обновляющихся, от старых до новых.">
+        <meta property="twitter:image" content="https://thelastmirror.tk/promo.png">
+    </head>
+    <body>
+        <div style="text-align: center">
+            <h1>The Last Mirror</h1>
+	    <p id="motd">motd не отрисовался ;( у вас что-то с браузером</p>
+	    <div class="grid">
+                <div>
+                    <a href="/paginated-list/">
+                        <h2>Список с обложками и описниями, поделенный на страницы</h2>
+                        <img src="screenshot_1.png">
+                    </a>
+                </div>
+                <div>
+                    <a href="/name-list/">
+                        <h2>Полный список имен</h2>
+                        <img src="screenshot_2.png">
+                    </a>
+                </div>
+            </div>
+            <h6 style="color: #555555">Некоторые игры могут быть без баннера или описания, это нормально, ссылка на скачивание все-равно работает.</h6>
+        </div>
+	<script>
+		function choose(choices) {
+			var index = Math.floor(Math.random() * choices.length);
+			return choices[index];
+		}
+		
+		var motds = [""" + ", ".join(['"' + i.replace("\"", "\\\"") + '"' for i in motd]) + r"""];
+		document.getElementById("motd").innerHTML = choose(motds);
+	</script>
+    </body>
+</html>"""
+
+    open("index.html", "w").write(index_html)
 
     print("Constructing name list")
     name_html = """<!doctype html>
@@ -199,7 +279,7 @@ def build(allGamesName, down_all):
             tname = re.sub(j, '-' * len(j), tname.replace('.torrent', ''), flags=re.IGNORECASE) + ".torrent"
 
         name_html += f"""
-                <p><a href="/games/{game['slug']}/index.html">{game["name"]}</a> <a href="/games/{game['slug']}/{tname}">(скачать)</a></p>"""
+                <p><a href="/games/{game['slug']}/">{game["name"]}</a> <a href="/games/{game['slug']}/{tname}">(скачать)</a></p>"""
 
     name_html += """
             </div>
@@ -207,7 +287,7 @@ def build(allGamesName, down_all):
     </html>
     """
 
-    with open("name_list/index.html", "w", encoding="utf-8") as f:
+    with open("name-list/index.html", "w", encoding="utf-8") as f:
         f.write(name_html)
 
     print("Constructing paginated list")
@@ -269,12 +349,12 @@ def build(allGamesName, down_all):
         for k, i in enumerate(pg):
             paginated_html += f"""
                     <div>
-                        <a href="/games/{i['slug']}/index.html">
+                        <a href="/games/{i['slug']}/">
                             <img src="{'https://thelastmirror.tk/bad_image.png' if i["image"] == "bad_image.png" else i["image"]}">
                         </a>
                         <h3>{i["name"]}</h3>
                         <p>{i["description"]}...</p>
-                        <a href="/games/{i['slug']}/index.html" class="big_a">Подробнее...</a>
+                        <a href="/games/{i['slug']}/" class="big_a">Подробнее...</a>
                     </div>"""
 
         paginated_html += """</div>
@@ -287,7 +367,7 @@ def build(allGamesName, down_all):
         </html>
         """
 
-        with open(f"paginated_list/{page}.html" if page != 0 else f"paginated_list/index.html", "w", encoding="utf-8") as f:
+        with open(f"paginated-list/{page}.html" if page != 0 else f"paginated-list/index.html", "w", encoding="utf-8") as f:
             f.write(paginated_html)
 
         page += 1
