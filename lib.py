@@ -59,10 +59,8 @@ def parse():
 def parse_page(i, pages):
     # print(f" Processing page {i + 1}/{pages} ({((i + 1) / pages * 100):.02f}%)")
     # print(f" Processing page {i + 1}")
-    if i == 0:
-        soup = BeautifulSoup(requests.get("https://thelastgame.ru/").content, 'html.parser')
-    else:
-        soup = BeautifulSoup(requests.get(f"https://thelastgame.ru/page/{i + 1}").content, 'html.parser')
+    
+    soup = BeautifulSoup(requests.get(f"https://thelastgame.ru/page/{i + 1}").content, 'html.parser')
 
     for j in [i.a.get("href") for i in soup.select("h2.post-title")]:
         subsoup = BeautifulSoup(requests.get(j).content, "html.parser")
@@ -122,7 +120,7 @@ def parse_page(i, pages):
 
             allGamesName.append(game)
 
-def build(allGamesName):
+def build(allGamesName, down_all):
     allGamesName = sorted(allGamesName, key=lambda gms: gms["name"])
 
     filtered_words = ["horny", "hentai", "голые", "сиськ", "dragon ball", "counter-strike", "street fighter", "freaky", "undress", "seduc"]
@@ -325,6 +323,12 @@ def build(allGamesName):
             if not os.path.isfile(f"games/{game['slug']}/{tname}"):
                 with open(f"games/{game['slug']}/{tname}", "wb") as f:
                     f.write(requests.get(game['dl_link']).content)
+            elif down_all:
+                new_file = requests.get(game["dl_link"]).content
+                original_hash = hash(open(f"games/{game['slug']}/{tname}", "rb").read())
+                new_hash = hash(new_file)
+                if original_hash != new_hash:
+                    open(f"games/{game['slug']}/{tname}", "wb").write(new_file)
         except requests.exceptions.ReadTimeout:
             print(f"Could not download .torrent for \"{game['slug']}\", skipping")
 

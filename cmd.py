@@ -16,5 +16,5 @@ if parse:
 if build:
 	print("Building...\n")
 	game_library = json.load(open("full.json", "r"))
-	lib.build(game_library)
+	lib.build(game_library, "--download" in sys.argv)
 	print()
