@@ -1,66 +1,45 @@
-<!doctype html>
-    <html>
-        <head>
-            <style>
-                @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
-                :root {
-                    font-family: "Lato", sans-serif;
-                    background-color: rgb(18, 18, 18);
-                    color: #ffffff;
-                }
-                a {
-                    color: #9999ff;
-                }
-                .screenshot {
-                    object-fit: cover;
-                    width: 75%;
-                    max-height: 75%;
-                }
-                .gbanner {
-                    object-fit: cover;
-                    width: 35%;
-                    max-height: 35%;
-                }
-                .grid {
-                    display: grid;
-                    grid-template-columns: 1fr 1fr;
-                    column-gap: 10px;
-                    row-gap: 10px;
-                }
-                .big_a {
-                    font-size: 24px;
-                }
-            </style>
-            <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/thisisignitedoreo/thelastmirror/master/favicon.ico">
-            <title>Internet Cafe Simulator - The Last Mirror</title>
-            <!-- Primary Meta Tags -->
-            <meta name="title" content="Internet Cafe Simulator - TheLastMirror">
-            <meta name="description" content="Internet Cafe Simulator – игровой проект в жанре стимулятора, где ты окунешься в тему экономики и постараешься создать собственное процветающее дело. Открой бизнес, покоряй все больше и больше вершин, развивайся и стань профессионалом в своем деле. Тебе нужно уметь привлекать своих посетителей, чтобы аудитория росла и твое дело процветало. Обязанностей масса, ведь ты берешь под контроль все аспекты деятельности данного предприятия. Игра выступает перед нами как симулятор интернет-кафе. Чтобы добиться положительных результатов, тебе необходимо вложить все свои силы, а также не забывать всячески улучшать деятельность. Позаботься об аренде и вовремя ее оплачивай, чтобы накопить денег и купить отдельное здание. Также не обойдется и без конкурентов, которые намерены сделать все, чтобы твое дело закрылось. Ты не должен этого допустить, а даже наоборот – сделать кафе самым популярным местом в городе. Как только ты добьешься желаемого успеха, не стоит расслабляться, ведь враги не дремлют и всегда будут на чеку....">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
 
-            <!-- Open Graph / Facebook -->
-            <meta property="og:type" content="website">
-            <meta property="og:url" content="https://thelastmirror.tk/">
-            <meta property="og:title" content="Internet Cafe Simulator - TheLastMirror">
-            <meta property="og:description" content="Internet Cafe Simulator – игровой проект в жанре стимулятора, где ты окунешься в тему экономики и постараешься создать собственное процветающее дело. Открой бизнес, покоряй все больше и больше вершин, развивайся и стань профессионалом в своем деле. Тебе нужно уметь привлекать своих посетителей, чтобы аудитория росла и твое дело процветало. Обязанностей масса, ведь ты берешь под контроль все аспекты деятельности данного предприятия. Игра выступает перед нами как симулятор интернет-кафе. Чтобы добиться положительных результатов, тебе необходимо вложить все свои силы, а также не забывать всячески улучшать деятельность. Позаботься об аренде и вовремя ее оплачивай, чтобы накопить денег и купить отдельное здание. Также не обойдется и без конкурентов, которые намерены сделать все, чтобы твое дело закрылось. Ты не должен этого допустить, а даже наоборот – сделать кафе самым популярным местом в городе. Как только ты добьешься желаемого успеха, не стоит расслабляться, ведь враги не дремлют и всегда будут на чеку....">
-            <meta property="og:image" content="https://thelastgame.ru/wp-content/uploads/2019/10/header-108.jpg">
-
-            <!-- Twitter -->
-            <meta property="twitter:card" content="summary_large_image">
-            <meta property="twitter:url" content="https://thelastmirror.tk/">
-            <meta property="twitter:title" content="Internet Cafe Simulator - TheLastMirror">
-            <meta property="twitter:description" content="Internet Cafe Simulator – игровой проект в жанре стимулятора, где ты окунешься в тему экономики и постараешься создать собственное процветающее дело. Открой бизнес, покоряй все больше и больше вершин, развивайся и стань профессионалом в своем деле. Тебе нужно уметь привлекать своих посетителей, чтобы аудитория росла и твое дело процветало. Обязанностей масса, ведь ты берешь под контроль все аспекты деятельности данного предприятия. Игра выступает перед нами как симулятор интернет-кафе. Чтобы добиться положительных результатов, тебе необходимо вложить все свои силы, а также не забывать всячески улучшать деятельность. Позаботься об аренде и вовремя ее оплачивай, чтобы накопить денег и купить отдельное здание. Также не обойдется и без конкурентов, которые намерены сделать все, чтобы твое дело закрылось. Ты не должен этого допустить, а даже наоборот – сделать кафе самым популярным местом в городе. Как только ты добьешься желаемого успеха, не стоит расслабляться, ведь враги не дремлют и всегда будут на чеку....">
-            <meta property="twitter:image" content="https://thelastgame.ru/wp-content/uploads/2019/10/header-108.jpg">
-        </head>
-        <body>
-            <div style="text-align: center">
-                <img class="gbanner" src="https://thelastgame.ru/wp-content/uploads/2019/10/header-108.jpg">
-                <h1>Internet Cafe Simulator</h1>
-                <h5>Internet Cafe Simulator – игровой проект в жанре стимулятора, где ты окунешься в тему экономики и постараешься создать собственное процветающее дело. Открой бизнес, покоряй все больше и больше вершин, развивайся и стань профессионалом в своем деле. Тебе нужно уметь привлекать своих посетителей, чтобы аудитория росла и твое дело процветало. Обязанностей масса, ведь ты берешь под контроль все аспекты деятельности данного предприятия. Игра выступает перед нами как симулятор интернет-кафе. Чтобы добиться положительных результатов, тебе необходимо вложить все свои силы, а также не забывать всячески улучшать деятельность. Позаботься об аренде и вовремя ее оплачивай, чтобы накопить денег и купить отдельное здание. Также не обойдется и без конкурентов, которые намерены сделать все, чтобы твое дело закрылось. Ты не должен этого допустить, а даже наоборот – сделать кафе самым популярным местом в городе. Как только ты добьешься желаемого успеха, не стоит расслабляться, ведь враги не дремлют и всегда будут на чеку.</h5>
-                <img class="screenshot" src="https://thelastgame.ru/wp-content/uploads/2019/10/ss_0d91a2fd54228cc6a047f19862a29b4fedd81e28.1920x1080.jpg"><br><p>Скриншот #0</p>
-    <img class="screenshot" src="https://thelastgame.ru/wp-content/uploads/2019/10/ss_36f5dcbc46f62b6f80fdb9837b3eaeb7be439c32.1920x1080.jpg"><br><p>Скриншот #1</p>
-    <img class="screenshot" src="https://thelastgame.ru/wp-content/uploads/2019/10/ss_a84704bbff07ae8c1cbc489ab8f8f0898ad18127.1920x1080.jpg"><br><p>Скриншот #2</p><br>
-                <a class="big_a" href="/games/internet-cafe-simulator/Internet_Cafe_Simulator.torrent">Скачать .torrent</a>
-            </div>
-        </body>
-    </html>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/game.css">
+    <title>Internet Cafe Simulator - TheLastMirror</title>
+</head>
+<body>
+    <div class="wrapper">
     
+        <header>
+
+            <a class="logo" href="/">TheLastMirror</a>
+
+        </header>
+
+        <main>
+
+            <div class="line">
+                <span class="header">Internet Cafe Simulator</span>
+                <a class="header download" href="/games/internet-cafe-simulator/Internet_Cafe_Simulator.torrent">Скачать .torrent</a>
+            </div>
+
+            <div class="line main">
+                <div class="row">
+                    <img width="460" src="https://thelastgame.ru/wp-content/uploads/2019/10/header-108.jpg " alt="Баннер" class="image">
+                    <div class="screenshots">
+                        <img width="460" src="https://thelastgame.ru/wp-content/uploads/2019/10/ss_0d91a2fd54228cc6a047f19862a29b4fedd81e28.1920x1080.jpg" alt="Скриншот">
+<img width="460" src="https://thelastgame.ru/wp-content/uploads/2019/10/ss_36f5dcbc46f62b6f80fdb9837b3eaeb7be439c32.1920x1080.jpg" alt="Скриншот">
+<img width="460" src="https://thelastgame.ru/wp-content/uploads/2019/10/ss_a84704bbff07ae8c1cbc489ab8f8f0898ad18127.1920x1080.jpg" alt="Скриншот">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="description">
+                        Internet Cafe Simulator – игровой проект в жанре стимулятора, где ты окунешься в тему экономики и постараешься создать собственное процветающее дело. Открой бизнес, покоряй все больше и больше вершин, развивайся и стань профессионалом в своем деле. Тебе нужно уметь привлекать своих посетителей, чтобы аудитория росла и твое дело процветало. Обязанностей масса, ведь ты берешь под контроль все аспекты деятельности данного предприятия. Игра выступает перед нами как симулятор интернет-кафе. Чтобы добиться положительных результатов, тебе необходимо вложить все свои силы, а также не забывать всячески улучшать деятельность. Позаботься об аренде и вовремя ее оплачивай, чтобы накопить денег и купить отдельное здание. Также не обойдется и без конкурентов, которые намерены сделать все, чтобы твое дело закрылось. Ты не должен этого допустить, а даже наоборот – сделать кафе самым популярным местом в городе. Как только ты добьешься желаемого успеха, не стоит расслабляться, ведь враги не дремлют и всегда будут на чеку.
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+
+main {
+	display: flex;
+	margin-top: 32px;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+main > a {
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	height: calc(70vh - 42px);
+	width: 100%;
+	background: #000;
+	border-radius: 16px;
+	box-shadow: 0 0 10px #aaa;
+	border: 5px solid #fff;
+	color: #fff;
+	padding: 16px;
+}
+
+main > a:first-child {
+	margin-right: 32px;
+}
+
+.heading {
+	font-size: 48px;
+}
+
+.subheading {
+	font-size: 24px;
+}

@@ -1,0 +1,59 @@
+
+@import url('https://fonts.cdnfonts.com/css/lato');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a, p, div {
+	font-family: "Lato", sans-serif;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+body {
+	background-color: #181818;
+}
+
+.wrapper {
+	width: 1170px;
+	padding: 32px;
+	margin: 0 auto;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	border-radius: 16px;
+	box-shadow: 0 0 10px #aaa;
+	background-color: #fff;
+	padding: 16px;
+}
+
+.logo {
+	font-size: 24px;
+	margin-left: 16px;
+	color: #333;
+}
+
+header > ul {
+	display: flex;
+	list-style: none;
+	flex-direction: row;
+}
+
+header > ul > li {
+	margin-left: 16px;
+}
+
+.line {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}

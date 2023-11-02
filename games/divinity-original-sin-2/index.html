@@ -1,66 +1,45 @@
-<!doctype html>
-    <html>
-        <head>
-            <style>
-                @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
-                :root {
-                    font-family: "Lato", sans-serif;
-                    background-color: rgb(18, 18, 18);
-                    color: #ffffff;
-                }
-                a {
-                    color: #9999ff;
-                }
-                .screenshot {
-                    object-fit: cover;
-                    width: 75%;
-                    max-height: 75%;
-                }
-                .gbanner {
-                    object-fit: cover;
-                    width: 35%;
-                    max-height: 35%;
-                }
-                .grid {
-                    display: grid;
-                    grid-template-columns: 1fr 1fr;
-                    column-gap: 10px;
-                    row-gap: 10px;
-                }
-                .big_a {
-                    font-size: 24px;
-                }
-            </style>
-            <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/thisisignitedoreo/thelastmirror/master/favicon.ico">
-            <title>Divinity: Original Sin 2 - The Last Mirror</title>
-            <!-- Primary Meta Tags -->
-            <meta name="title" content="Divinity: Original Sin 2 - TheLastMirror">
-            <meta name="description" content="Divinity Original Sin II (Дивинити: Оригинал Син 2)- игра, которая погрузит тебя в темный мир магии и масштабных сражений. Ты будешь играть за провидца, который обладает запрещённой магией. В мире больше нет Богов, от этого повсюду начался сплошной беспредел. Многочасовой сюжет увлечет тебя с головой и не отпустит в течении нескольких часов. В мире есть магистры, которые заправляют всем вокруг, внося свои новые порядки, которые подразумевают лечение больных от магии. Ты попадаешь в число этих больных, но не хочешь сдаваться просто так. Выбери своего героя, который будет относится к определенной расе. Затем отправляйся в опасное приключение с множеством врагов и сложных заданий. Собери свой боевой отряд, который будет служить тебе до конца. Прокачивай навыки и умения, чтобы ты смог сразится с самыми сильными боссами. Займись исследованием окружающего мира, а также запасись мощным оружием....">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
 
-            <!-- Open Graph / Facebook -->
-            <meta property="og:type" content="website">
-            <meta property="og:url" content="https://thelastmirror.tk/">
-            <meta property="og:title" content="Divinity: Original Sin 2 - TheLastMirror">
-            <meta property="og:description" content="Divinity Original Sin II (Дивинити: Оригинал Син 2)- игра, которая погрузит тебя в темный мир магии и масштабных сражений. Ты будешь играть за провидца, который обладает запрещённой магией. В мире больше нет Богов, от этого повсюду начался сплошной беспредел. Многочасовой сюжет увлечет тебя с головой и не отпустит в течении нескольких часов. В мире есть магистры, которые заправляют всем вокруг, внося свои новые порядки, которые подразумевают лечение больных от магии. Ты попадаешь в число этих больных, но не хочешь сдаваться просто так. Выбери своего героя, который будет относится к определенной расе. Затем отправляйся в опасное приключение с множеством врагов и сложных заданий. Собери свой боевой отряд, который будет служить тебе до конца. Прокачивай навыки и умения, чтобы ты смог сразится с самыми сильными боссами. Займись исследованием окружающего мира, а также запасись мощным оружием....">
-            <meta property="og:image" content="https://thelastgame.ru/wp-content/uploads/2017/10/header-27.jpg">
-
-            <!-- Twitter -->
-            <meta property="twitter:card" content="summary_large_image">
-            <meta property="twitter:url" content="https://thelastmirror.tk/">
-            <meta property="twitter:title" content="Divinity: Original Sin 2 - TheLastMirror">
-            <meta property="twitter:description" content="Divinity Original Sin II (Дивинити: Оригинал Син 2)- игра, которая погрузит тебя в темный мир магии и масштабных сражений. Ты будешь играть за провидца, который обладает запрещённой магией. В мире больше нет Богов, от этого повсюду начался сплошной беспредел. Многочасовой сюжет увлечет тебя с головой и не отпустит в течении нескольких часов. В мире есть магистры, которые заправляют всем вокруг, внося свои новые порядки, которые подразумевают лечение больных от магии. Ты попадаешь в число этих больных, но не хочешь сдаваться просто так. Выбери своего героя, который будет относится к определенной расе. Затем отправляйся в опасное приключение с множеством врагов и сложных заданий. Собери свой боевой отряд, который будет служить тебе до конца. Прокачивай навыки и умения, чтобы ты смог сразится с самыми сильными боссами. Займись исследованием окружающего мира, а также запасись мощным оружием....">
-            <meta property="twitter:image" content="https://thelastgame.ru/wp-content/uploads/2017/10/header-27.jpg">
-        </head>
-        <body>
-            <div style="text-align: center">
-                <img class="gbanner" src="https://thelastgame.ru/wp-content/uploads/2017/10/header-27.jpg">
-                <h1>Divinity: Original Sin 2</h1>
-                <h5>Divinity Original Sin II (Дивинити: Оригинал Син 2)- игра, которая погрузит тебя в темный мир магии и масштабных сражений. Ты будешь играть за провидца, который обладает запрещённой магией. В мире больше нет Богов, от этого повсюду начался сплошной беспредел. Многочасовой сюжет увлечет тебя с головой и не отпустит в течении нескольких часов. В мире есть магистры, которые заправляют всем вокруг, внося свои новые порядки, которые подразумевают лечение больных от магии. Ты попадаешь в число этих больных, но не хочешь сдаваться просто так. Выбери своего героя, который будет относится к определенной расе. Затем отправляйся в опасное приключение с множеством врагов и сложных заданий. Собери свой боевой отряд, который будет служить тебе до конца. Прокачивай навыки и умения, чтобы ты смог сразится с самыми сильными боссами. Займись исследованием окружающего мира, а также запасись мощным оружием.</h5>
-                <img class="screenshot" src="https://thelastgame.ru/wp-content/uploads/2017/10/ss_b59e5889726cab2cf01a93d0c0d192d25928952a.1920x1080.jpg"><br><p>Скриншот #0</p>
-    <img class="screenshot" src="https://thelastgame.ru/wp-content/uploads/2017/10/ss_d3badb07717f13ef3316928c513f8c4c7f7b50b1.1920x1080.jpg"><br><p>Скриншот #1</p>
-    <img class="screenshot" src="https://thelastgame.ru/wp-content/uploads/2017/10/ss_34a428cdd26113e8645b77331d9fc82fcc50a4a2.1920x1080.jpg"><br><p>Скриншот #2</p><br>
-                <a class="big_a" href="/games/divinity-original-sin-2/Divinity_Original_Sin_2.torrent">Скачать .torrent</a>
-            </div>
-        </body>
-    </html>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/game.css">
+    <title>Divinity: Original Sin 2 - TheLastMirror</title>
+</head>
+<body>
+    <div class="wrapper">
     
+        <header>
+
+            <a class="logo" href="/">TheLastMirror</a>
+
+        </header>
+
+        <main>
+
+            <div class="line">
+                <span class="header">Divinity: Original Sin 2</span>
+                <a class="header download" href="/games/divinity-original-sin-2/Divinity_Original_Sin_2.torrent">Скачать .torrent</a>
+            </div>
+
+            <div class="line main">
+                <div class="row">
+                    <img width="460" src="https://thelastgame.ru/wp-content/uploads/2017/10/header-27.jpg " alt="Баннер" class="image">
+                    <div class="screenshots">
+                        <img width="460" src="https://thelastgame.ru/wp-content/uploads/2017/10/ss_b59e5889726cab2cf01a93d0c0d192d25928952a.1920x1080.jpg" alt="Скриншот">
+<img width="460" src="https://thelastgame.ru/wp-content/uploads/2017/10/ss_d3badb07717f13ef3316928c513f8c4c7f7b50b1.1920x1080.jpg" alt="Скриншот">
+<img width="460" src="https://thelastgame.ru/wp-content/uploads/2017/10/ss_34a428cdd26113e8645b77331d9fc82fcc50a4a2.1920x1080.jpg" alt="Скриншот">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="description">
+                        Divinity Original Sin II (Дивинити: Оригинал Син 2)- игра, которая погрузит тебя в темный мир магии и масштабных сражений. Ты будешь играть за провидца, который обладает запрещённой магией. В мире больше нет Богов, от этого повсюду начался сплошной беспредел. Многочасовой сюжет увлечет тебя с головой и не отпустит в течении нескольких часов. В мире есть магистры, которые заправляют всем вокруг, внося свои новые порядки, которые подразумевают лечение больных от магии. Ты попадаешь в число этих больных, но не хочешь сдаваться просто так. Выбери своего героя, который будет относится к определенной расе. Затем отправляйся в опасное приключение с множеством врагов и сложных заданий. Собери свой боевой отряд, который будет служить тебе до конца. Прокачивай навыки и умения, чтобы ты смог сразится с самыми сильными боссами. Займись исследованием окружающего мира, а также запасись мощным оружием.
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+</body>
+</html>

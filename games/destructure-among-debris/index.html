@@ -1,66 +1,45 @@
-<!doctype html>
-    <html>
-        <head>
-            <style>
-                @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
-                :root {
-                    font-family: "Lato", sans-serif;
-                    background-color: rgb(18, 18, 18);
-                    color: #ffffff;
-                }
-                a {
-                    color: #9999ff;
-                }
-                .screenshot {
-                    object-fit: cover;
-                    width: 75%;
-                    max-height: 75%;
-                }
-                .gbanner {
-                    object-fit: cover;
-                    width: 35%;
-                    max-height: 35%;
-                }
-                .grid {
-                    display: grid;
-                    grid-template-columns: 1fr 1fr;
-                    column-gap: 10px;
-                    row-gap: 10px;
-                }
-                .big_a {
-                    font-size: 24px;
-                }
-            </style>
-            <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/thisisignitedoreo/thelastmirror/master/favicon.ico">
-            <title>DESTRUCTURE: Among Debris - The Last Mirror</title>
-            <!-- Primary Meta Tags -->
-            <meta name="title" content="DESTRUCTURE: Among Debris - TheLastMirror">
-            <meta name="description" content="DESTRUCTURE Among Debris – динамичная аркадная игра с элементами аэрохоккея, которая вновь готова порадовать нас нововведениями и детализацией в графике. На этот раз мы отправляемся в мир, переживающий последствия апокалипсиса, который был практически полностью разрушен, цивилизация была забыта, а система безопасности стала агрессивно настроенной. Мы же возьмемся за исполнение необычной роли – роли небольшого устройства с пушкой в арсенале, которое становится на пути сопротивления с новыми реалиями и готово сделать все возможное, чтобы привести планету к процветанию и восстановлению жизни на ней. Первым делом стоит отметить наличие большого выбора модификаций для пушки, которую мы будем делать с каждым разом всё мощнее, чтобы справиться с более сильными оппонентами. Мир игры поддаётся полному разрушению и тебе предстоит это сделать, чтобы создать что-то новое и дать его будущим обитателям надежду на светлое и безопасное будущее....">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
 
-            <!-- Open Graph / Facebook -->
-            <meta property="og:type" content="website">
-            <meta property="og:url" content="https://thelastmirror.tk/">
-            <meta property="og:title" content="DESTRUCTURE: Among Debris - TheLastMirror">
-            <meta property="og:description" content="DESTRUCTURE Among Debris – динамичная аркадная игра с элементами аэрохоккея, которая вновь готова порадовать нас нововведениями и детализацией в графике. На этот раз мы отправляемся в мир, переживающий последствия апокалипсиса, который был практически полностью разрушен, цивилизация была забыта, а система безопасности стала агрессивно настроенной. Мы же возьмемся за исполнение необычной роли – роли небольшого устройства с пушкой в арсенале, которое становится на пути сопротивления с новыми реалиями и готово сделать все возможное, чтобы привести планету к процветанию и восстановлению жизни на ней. Первым делом стоит отметить наличие большого выбора модификаций для пушки, которую мы будем делать с каждым разом всё мощнее, чтобы справиться с более сильными оппонентами. Мир игры поддаётся полному разрушению и тебе предстоит это сделать, чтобы создать что-то новое и дать его будущим обитателям надежду на светлое и безопасное будущее....">
-            <meta property="og:image" content="https://thelastgame.ru/wp-content/uploads/2023/03/header-13.jpg">
-
-            <!-- Twitter -->
-            <meta property="twitter:card" content="summary_large_image">
-            <meta property="twitter:url" content="https://thelastmirror.tk/">
-            <meta property="twitter:title" content="DESTRUCTURE: Among Debris - TheLastMirror">
-            <meta property="twitter:description" content="DESTRUCTURE Among Debris – динамичная аркадная игра с элементами аэрохоккея, которая вновь готова порадовать нас нововведениями и детализацией в графике. На этот раз мы отправляемся в мир, переживающий последствия апокалипсиса, который был практически полностью разрушен, цивилизация была забыта, а система безопасности стала агрессивно настроенной. Мы же возьмемся за исполнение необычной роли – роли небольшого устройства с пушкой в арсенале, которое становится на пути сопротивления с новыми реалиями и готово сделать все возможное, чтобы привести планету к процветанию и восстановлению жизни на ней. Первым делом стоит отметить наличие большого выбора модификаций для пушки, которую мы будем делать с каждым разом всё мощнее, чтобы справиться с более сильными оппонентами. Мир игры поддаётся полному разрушению и тебе предстоит это сделать, чтобы создать что-то новое и дать его будущим обитателям надежду на светлое и безопасное будущее....">
-            <meta property="twitter:image" content="https://thelastgame.ru/wp-content/uploads/2023/03/header-13.jpg">
-        </head>
-        <body>
-            <div style="text-align: center">
-                <img class="gbanner" src="https://thelastgame.ru/wp-content/uploads/2023/03/header-13.jpg">
-                <h1>DESTRUCTURE: Among Debris</h1>
-                <h5>DESTRUCTURE Among Debris – динамичная аркадная игра с элементами аэрохоккея, которая вновь готова порадовать нас нововведениями и детализацией в графике. На этот раз мы отправляемся в мир, переживающий последствия апокалипсиса, который был практически полностью разрушен, цивилизация была забыта, а система безопасности стала агрессивно настроенной. Мы же возьмемся за исполнение необычной роли – роли небольшого устройства с пушкой в арсенале, которое становится на пути сопротивления с новыми реалиями и готово сделать все возможное, чтобы привести планету к процветанию и восстановлению жизни на ней. Первым делом стоит отметить наличие большого выбора модификаций для пушки, которую мы будем делать с каждым разом всё мощнее, чтобы справиться с более сильными оппонентами. Мир игры поддаётся полному разрушению и тебе предстоит это сделать, чтобы создать что-то новое и дать его будущим обитателям надежду на светлое и безопасное будущее.</h5>
-                <img class="screenshot" src="https://thelastgame.ru/wp-content/uploads/2023/03/ss_dc1d61a1a59207b11490a8b4eeff59e45828c94b.1920x1080.jpg"><br><p>Скриншот #0</p>
-    <img class="screenshot" src="https://thelastgame.ru/wp-content/uploads/2023/03/ss_e44ecd2ba5f90465856b1736e5f50384663c0cc2.1920x1080.jpg"><br><p>Скриншот #1</p>
-    <img class="screenshot" src="https://thelastgame.ru/wp-content/uploads/2023/03/ss_f031c6c6494f45da61d22246a8c90291942aadeb.1920x1080.jpg"><br><p>Скриншот #2</p><br>
-                <a class="big_a" href="/games/destructure-among-debris/DESTRUCTURE_Among_Debris.torrent">Скачать .torrent</a>
-            </div>
-        </body>
-    </html>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/game.css">
+    <title>DESTRUCTURE: Among Debris - TheLastMirror</title>
+</head>
+<body>
+    <div class="wrapper">
     
+        <header>
+
+            <a class="logo" href="/">TheLastMirror</a>
+
+        </header>
+
+        <main>
+
+            <div class="line">
+                <span class="header">DESTRUCTURE: Among Debris</span>
+                <a class="header download" href="/games/destructure-among-debris/DESTRUCTURE_Among_Debris.torrent">Скачать .torrent</a>
+            </div>
+
+            <div class="line main">
+                <div class="row">
+                    <img width="460" src="https://thelastgame.ru/wp-content/uploads/2023/03/header-13.jpg " alt="Баннер" class="image">
+                    <div class="screenshots">
+                        <img width="460" src="https://thelastgame.ru/wp-content/uploads/2023/03/ss_dc1d61a1a59207b11490a8b4eeff59e45828c94b.1920x1080.jpg" alt="Скриншот">
+<img width="460" src="https://thelastgame.ru/wp-content/uploads/2023/03/ss_e44ecd2ba5f90465856b1736e5f50384663c0cc2.1920x1080.jpg" alt="Скриншот">
+<img width="460" src="https://thelastgame.ru/wp-content/uploads/2023/03/ss_f031c6c6494f45da61d22246a8c90291942aadeb.1920x1080.jpg" alt="Скриншот">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="description">
+                        DESTRUCTURE Among Debris – динамичная аркадная игра с элементами аэрохоккея, которая вновь готова порадовать нас нововведениями и детализацией в графике. На этот раз мы отправляемся в мир, переживающий последствия апокалипсиса, который был практически полностью разрушен, цивилизация была забыта, а система безопасности стала агрессивно настроенной. Мы же возьмемся за исполнение необычной роли – роли небольшого устройства с пушкой в арсенале, которое становится на пути сопротивления с новыми реалиями и готово сделать все возможное, чтобы привести планету к процветанию и восстановлению жизни на ней. Первым делом стоит отметить наличие большого выбора модификаций для пушки, которую мы будем делать с каждым разом всё мощнее, чтобы справиться с более сильными оппонентами. Мир игры поддаётся полному разрушению и тебе предстоит это сделать, чтобы создать что-то новое и дать его будущим обитателям надежду на светлое и безопасное будущее.
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+</body>
+</html>

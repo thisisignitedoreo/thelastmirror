@@ -1,66 +1,45 @@
-<!doctype html>
-    <html>
-        <head>
-            <style>
-                @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
-                :root {
-                    font-family: "Lato", sans-serif;
-                    background-color: rgb(18, 18, 18);
-                    color: #ffffff;
-                }
-                a {
-                    color: #9999ff;
-                }
-                .screenshot {
-                    object-fit: cover;
-                    width: 75%;
-                    max-height: 75%;
-                }
-                .gbanner {
-                    object-fit: cover;
-                    width: 35%;
-                    max-height: 35%;
-                }
-                .grid {
-                    display: grid;
-                    grid-template-columns: 1fr 1fr;
-                    column-gap: 10px;
-                    row-gap: 10px;
-                }
-                .big_a {
-                    font-size: 24px;
-                }
-            </style>
-            <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/thisisignitedoreo/thelastmirror/master/favicon.ico">
-            <title>Cafe Owner Simulator - The Last Mirror</title>
-            <!-- Primary Meta Tags -->
-            <meta name="title" content="Cafe Owner Simulator - TheLastMirror">
-            <meta name="description" content="Cafe Owner Simulator (Симулятор Владельца Кафе) – игра, разработанная в жанре симулятора, где мы возьмемся за управление и развитие собственного кафе. Главная задача – обустроить максимально комфортное и популярное на весь мир место, но для этого предстоит пройти довольно сложный путь. Займись экстерьером своего ресторана и обеспечь уютный интерьер, найми профессионалов своего дела и создай правильное меню, из пунктов которого каждый сумеет отыскать для себя что-нибудь по вкусу. Здесь у нас появляется возможность реализовать собственный ресторанный бизнес с нуля, проявив активность, смекалку, хитрость и навыки стратегического планирования действий. Развиваться ты можешь так, как посчитаешь нужным и создать тот ресторан, который пройдет тебе в голову с помощью фантазии. Графика игры проработана на отлично, обладает реалистичностью и позволит насладиться прекрасным пейзажем....">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
 
-            <!-- Open Graph / Facebook -->
-            <meta property="og:type" content="website">
-            <meta property="og:url" content="https://thelastmirror.tk/">
-            <meta property="og:title" content="Cafe Owner Simulator - TheLastMirror">
-            <meta property="og:description" content="Cafe Owner Simulator (Симулятор Владельца Кафе) – игра, разработанная в жанре симулятора, где мы возьмемся за управление и развитие собственного кафе. Главная задача – обустроить максимально комфортное и популярное на весь мир место, но для этого предстоит пройти довольно сложный путь. Займись экстерьером своего ресторана и обеспечь уютный интерьер, найми профессионалов своего дела и создай правильное меню, из пунктов которого каждый сумеет отыскать для себя что-нибудь по вкусу. Здесь у нас появляется возможность реализовать собственный ресторанный бизнес с нуля, проявив активность, смекалку, хитрость и навыки стратегического планирования действий. Развиваться ты можешь так, как посчитаешь нужным и создать тот ресторан, который пройдет тебе в голову с помощью фантазии. Графика игры проработана на отлично, обладает реалистичностью и позволит насладиться прекрасным пейзажем....">
-            <meta property="og:image" content="https://thelastgame.ru/wp-content/uploads/2022/12/header-1.jpg">
-
-            <!-- Twitter -->
-            <meta property="twitter:card" content="summary_large_image">
-            <meta property="twitter:url" content="https://thelastmirror.tk/">
-            <meta property="twitter:title" content="Cafe Owner Simulator - TheLastMirror">
-            <meta property="twitter:description" content="Cafe Owner Simulator (Симулятор Владельца Кафе) – игра, разработанная в жанре симулятора, где мы возьмемся за управление и развитие собственного кафе. Главная задача – обустроить максимально комфортное и популярное на весь мир место, но для этого предстоит пройти довольно сложный путь. Займись экстерьером своего ресторана и обеспечь уютный интерьер, найми профессионалов своего дела и создай правильное меню, из пунктов которого каждый сумеет отыскать для себя что-нибудь по вкусу. Здесь у нас появляется возможность реализовать собственный ресторанный бизнес с нуля, проявив активность, смекалку, хитрость и навыки стратегического планирования действий. Развиваться ты можешь так, как посчитаешь нужным и создать тот ресторан, который пройдет тебе в голову с помощью фантазии. Графика игры проработана на отлично, обладает реалистичностью и позволит насладиться прекрасным пейзажем....">
-            <meta property="twitter:image" content="https://thelastgame.ru/wp-content/uploads/2022/12/header-1.jpg">
-        </head>
-        <body>
-            <div style="text-align: center">
-                <img class="gbanner" src="https://thelastgame.ru/wp-content/uploads/2022/12/header-1.jpg">
-                <h1>Cafe Owner Simulator</h1>
-                <h5>Cafe Owner Simulator (Симулятор Владельца Кафе) – игра, разработанная в жанре симулятора, где мы возьмемся за управление и развитие собственного кафе. Главная задача – обустроить максимально комфортное и популярное на весь мир место, но для этого предстоит пройти довольно сложный путь. Займись экстерьером своего ресторана и обеспечь уютный интерьер, найми профессионалов своего дела и создай правильное меню, из пунктов которого каждый сумеет отыскать для себя что-нибудь по вкусу. Здесь у нас появляется возможность реализовать собственный ресторанный бизнес с нуля, проявив активность, смекалку, хитрость и навыки стратегического планирования действий. Развиваться ты можешь так, как посчитаешь нужным и создать тот ресторан, который пройдет тебе в голову с помощью фантазии. Графика игры проработана на отлично, обладает реалистичностью и позволит насладиться прекрасным пейзажем.</h5>
-                <img class="screenshot" src="https://thelastgame.ru/wp-content/uploads/2022/12/ss_0ae5f2c58d00fa571d993de2f959e7bb6f810d1e.1920x1080.jpg"><br><p>Скриншот #0</p>
-    <img class="screenshot" src="https://thelastgame.ru/wp-content/uploads/2022/12/ss_0e1ee35eb0dc06719fbf05ccf5274747d81fef00.1920x1080.jpg"><br><p>Скриншот #1</p>
-    <img class="screenshot" src="https://thelastgame.ru/wp-content/uploads/2022/12/ss_f29f90377e81fcd289873b06c49b7862a1353b05.1920x1080.jpg"><br><p>Скриншот #2</p><br>
-                <a class="big_a" href="/games/cafe-owner-simulator/Cafe_Owner_Simulator.torrent">Скачать .torrent</a>
-            </div>
-        </body>
-    </html>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/game.css">
+    <title>Cafe Owner Simulator - TheLastMirror</title>
+</head>
+<body>
+    <div class="wrapper">
     
+        <header>
+
+            <a class="logo" href="/">TheLastMirror</a>
+
+        </header>
+
+        <main>
+
+            <div class="line">
+                <span class="header">Cafe Owner Simulator</span>
+                <a class="header download" href="/games/cafe-owner-simulator/Cafe_Owner_Simulator.torrent">Скачать .torrent</a>
+            </div>
+
+            <div class="line main">
+                <div class="row">
+                    <img width="460" src="https://thelastgame.ru/wp-content/uploads/2022/12/header-1.jpg " alt="Баннер" class="image">
+                    <div class="screenshots">
+                        <img width="460" src="https://thelastgame.ru/wp-content/uploads/2022/12/ss_0ae5f2c58d00fa571d993de2f959e7bb6f810d1e.1920x1080.jpg" alt="Скриншот">
+<img width="460" src="https://thelastgame.ru/wp-content/uploads/2022/12/ss_0e1ee35eb0dc06719fbf05ccf5274747d81fef00.1920x1080.jpg" alt="Скриншот">
+<img width="460" src="https://thelastgame.ru/wp-content/uploads/2022/12/ss_f29f90377e81fcd289873b06c49b7862a1353b05.1920x1080.jpg" alt="Скриншот">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="description">
+                        Cafe Owner Simulator (Симулятор Владельца Кафе) – игра, разработанная в жанре симулятора, где мы возьмемся за управление и развитие собственного кафе. Главная задача – обустроить максимально комфортное и популярное на весь мир место, но для этого предстоит пройти довольно сложный путь. Займись экстерьером своего ресторана и обеспечь уютный интерьер, найми профессионалов своего дела и создай правильное меню, из пунктов которого каждый сумеет отыскать для себя что-нибудь по вкусу. Здесь у нас появляется возможность реализовать собственный ресторанный бизнес с нуля, проявив активность, смекалку, хитрость и навыки стратегического планирования действий. Развиваться ты можешь так, как посчитаешь нужным и создать тот ресторан, который пройдет тебе в голову с помощью фантазии. Графика игры проработана на отлично, обладает реалистичностью и позволит насладиться прекрасным пейзажем.
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+</body>
+</html>

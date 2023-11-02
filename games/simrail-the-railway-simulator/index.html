@@ -1,66 +1,45 @@
-<!doctype html>
-    <html>
-        <head>
-            <style>
-                @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
-                :root {
-                    font-family: "Lato", sans-serif;
-                    background-color: rgb(18, 18, 18);
-                    color: #ffffff;
-                }
-                a {
-                    color: #9999ff;
-                }
-                .screenshot {
-                    object-fit: cover;
-                    width: 75%;
-                    max-height: 75%;
-                }
-                .gbanner {
-                    object-fit: cover;
-                    width: 35%;
-                    max-height: 35%;
-                }
-                .grid {
-                    display: grid;
-                    grid-template-columns: 1fr 1fr;
-                    column-gap: 10px;
-                    row-gap: 10px;
-                }
-                .big_a {
-                    font-size: 24px;
-                }
-            </style>
-            <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/thisisignitedoreo/thelastmirror/master/favicon.ico">
-            <title>SimRail - The Railway Simulator - The Last Mirror</title>
-            <!-- Primary Meta Tags -->
-            <meta name="title" content="SimRail - The Railway Simulator - TheLastMirror">
-            <meta name="description" content="SimRail — The Railway Simulator – проект, разработанный в жанре симулятора, который отправляет нас на просторы мира поездов. Здесь тебе предстоит прокатиться по красочным локациям, взявшись за управление несколькими видами поездов. Ты сможешь взяться за штурвал как высокоскоростного электропоезда, так и массивным большегрузом, изучая тип работы каждого. Любая модель, которую ты выберешь – уникальна, а поэтому скучать точно времени не будет. Главной особенностью данного проекта является его высокая реалистичность, а поэтому ты в полной мере сможешь почувствовать себя на месте машиниста. По мере следования ты будешь выполнять интересные миссии, тем самым давая доступ к новым моделям поездов, пополняя коллекцию все новыми и новыми представителями. Визуальная составляющая порадует приятной атмосферой, яркими красками и красивым окружением, которым ты сможешь насладиться, отправившись в путешествие....">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
 
-            <!-- Open Graph / Facebook -->
-            <meta property="og:type" content="website">
-            <meta property="og:url" content="https://thelastmirror.tk/">
-            <meta property="og:title" content="SimRail - The Railway Simulator - TheLastMirror">
-            <meta property="og:description" content="SimRail — The Railway Simulator – проект, разработанный в жанре симулятора, который отправляет нас на просторы мира поездов. Здесь тебе предстоит прокатиться по красочным локациям, взявшись за управление несколькими видами поездов. Ты сможешь взяться за штурвал как высокоскоростного электропоезда, так и массивным большегрузом, изучая тип работы каждого. Любая модель, которую ты выберешь – уникальна, а поэтому скучать точно времени не будет. Главной особенностью данного проекта является его высокая реалистичность, а поэтому ты в полной мере сможешь почувствовать себя на месте машиниста. По мере следования ты будешь выполнять интересные миссии, тем самым давая доступ к новым моделям поездов, пополняя коллекцию все новыми и новыми представителями. Визуальная составляющая порадует приятной атмосферой, яркими красками и красивым окружением, которым ты сможешь насладиться, отправившись в путешествие....">
-            <meta property="og:image" content="https://thelastgame.ru/wp-content/uploads/2023/01/header-15.jpg">
-
-            <!-- Twitter -->
-            <meta property="twitter:card" content="summary_large_image">
-            <meta property="twitter:url" content="https://thelastmirror.tk/">
-            <meta property="twitter:title" content="SimRail - The Railway Simulator - TheLastMirror">
-            <meta property="twitter:description" content="SimRail — The Railway Simulator – проект, разработанный в жанре симулятора, который отправляет нас на просторы мира поездов. Здесь тебе предстоит прокатиться по красочным локациям, взявшись за управление несколькими видами поездов. Ты сможешь взяться за штурвал как высокоскоростного электропоезда, так и массивным большегрузом, изучая тип работы каждого. Любая модель, которую ты выберешь – уникальна, а поэтому скучать точно времени не будет. Главной особенностью данного проекта является его высокая реалистичность, а поэтому ты в полной мере сможешь почувствовать себя на месте машиниста. По мере следования ты будешь выполнять интересные миссии, тем самым давая доступ к новым моделям поездов, пополняя коллекцию все новыми и новыми представителями. Визуальная составляющая порадует приятной атмосферой, яркими красками и красивым окружением, которым ты сможешь насладиться, отправившись в путешествие....">
-            <meta property="twitter:image" content="https://thelastgame.ru/wp-content/uploads/2023/01/header-15.jpg">
-        </head>
-        <body>
-            <div style="text-align: center">
-                <img class="gbanner" src="https://thelastgame.ru/wp-content/uploads/2023/01/header-15.jpg">
-                <h1>SimRail - The Railway Simulator</h1>
-                <h5>SimRail — The Railway Simulator – проект, разработанный в жанре симулятора, который отправляет нас на просторы мира поездов. Здесь тебе предстоит прокатиться по красочным локациям, взявшись за управление несколькими видами поездов. Ты сможешь взяться за штурвал как высокоскоростного электропоезда, так и массивным большегрузом, изучая тип работы каждого. Любая модель, которую ты выберешь – уникальна, а поэтому скучать точно времени не будет. Главной особенностью данного проекта является его высокая реалистичность, а поэтому ты в полной мере сможешь почувствовать себя на месте машиниста. По мере следования ты будешь выполнять интересные миссии, тем самым давая доступ к новым моделям поездов, пополняя коллекцию все новыми и новыми представителями. Визуальная составляющая порадует приятной атмосферой, яркими красками и красивым окружением, которым ты сможешь насладиться, отправившись в путешествие.</h5>
-                <img class="screenshot" src="https://thelastgame.ru/wp-content/uploads/2023/01/ss_6813606d1e395c0c3293afe7b3e34971a78a2865.1920x1080.jpg"><br><p>Скриншот #0</p>
-    <img class="screenshot" src="https://thelastgame.ru/wp-content/uploads/2023/01/ss_bc0fbc87c7a180c079c7f5d3b18ba2dc1aa15f72.1920x1080.jpg"><br><p>Скриншот #1</p>
-    <img class="screenshot" src="https://thelastgame.ru/wp-content/uploads/2023/01/ss_d1966872b273364957e68e379031acb9a1cde4df.1920x1080.jpg"><br><p>Скриншот #2</p><br>
-                <a class="big_a" href="/games/simrail-the-railway-simulator/SimRail_The_Railway_Simulator..torrent">Скачать .torrent</a>
-            </div>
-        </body>
-    </html>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/game.css">
+    <title>SimRail - The Railway Simulator - TheLastMirror</title>
+</head>
+<body>
+    <div class="wrapper">
     
+        <header>
+
+            <a class="logo" href="/">TheLastMirror</a>
+
+        </header>
+
+        <main>
+
+            <div class="line">
+                <span class="header">SimRail - The Railway Simulator</span>
+                <a class="header download" href="/games/simrail-the-railway-simulator/SimRail_The_Railway_Simulator..torrent">Скачать .torrent</a>
+            </div>
+
+            <div class="line main">
+                <div class="row">
+                    <img width="460" src="https://thelastgame.ru/wp-content/uploads/2023/01/header-15.jpg " alt="Баннер" class="image">
+                    <div class="screenshots">
+                        <img width="460" src="https://thelastgame.ru/wp-content/uploads/2023/01/ss_6813606d1e395c0c3293afe7b3e34971a78a2865.1920x1080.jpg" alt="Скриншот">
+<img width="460" src="https://thelastgame.ru/wp-content/uploads/2023/01/ss_bc0fbc87c7a180c079c7f5d3b18ba2dc1aa15f72.1920x1080.jpg" alt="Скриншот">
+<img width="460" src="https://thelastgame.ru/wp-content/uploads/2023/01/ss_d1966872b273364957e68e379031acb9a1cde4df.1920x1080.jpg" alt="Скриншот">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="description">
+                        SimRail — The Railway Simulator – проект, разработанный в жанре симулятора, который отправляет нас на просторы мира поездов. Здесь тебе предстоит прокатиться по красочным локациям, взявшись за управление несколькими видами поездов. Ты сможешь взяться за штурвал как высокоскоростного электропоезда, так и массивным большегрузом, изучая тип работы каждого. Любая модель, которую ты выберешь – уникальна, а поэтому скучать точно времени не будет. Главной особенностью данного проекта является его высокая реалистичность, а поэтому ты в полной мере сможешь почувствовать себя на месте машиниста. По мере следования ты будешь выполнять интересные миссии, тем самым давая доступ к новым моделям поездов, пополняя коллекцию все новыми и новыми представителями. Визуальная составляющая порадует приятной атмосферой, яркими красками и красивым окружением, которым ты сможешь насладиться, отправившись в путешествие.
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+</body>
+</html>

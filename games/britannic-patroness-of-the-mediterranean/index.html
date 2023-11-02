@@ -1,66 +1,45 @@
-<!doctype html>
-    <html>
-        <head>
-            <style>
-                @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
-                :root {
-                    font-family: "Lato", sans-serif;
-                    background-color: rgb(18, 18, 18);
-                    color: #ffffff;
-                }
-                a {
-                    color: #9999ff;
-                }
-                .screenshot {
-                    object-fit: cover;
-                    width: 75%;
-                    max-height: 75%;
-                }
-                .gbanner {
-                    object-fit: cover;
-                    width: 35%;
-                    max-height: 35%;
-                }
-                .grid {
-                    display: grid;
-                    grid-template-columns: 1fr 1fr;
-                    column-gap: 10px;
-                    row-gap: 10px;
-                }
-                .big_a {
-                    font-size: 24px;
-                }
-            </style>
-            <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/thisisignitedoreo/thelastmirror/master/favicon.ico">
-            <title>Britannic: Patroness of the Mediterranean - The Last Mirror</title>
-            <!-- Primary Meta Tags -->
-            <meta name="title" content="Britannic: Patroness of the Mediterranean - TheLastMirror">
-            <meta name="description" content="Britannic Patroness of the Mediterranean – проработанный и максимально реалистичный симулятор исследования, где ты отправляешься на морские просторы, чтобы вдоль и поперек изучить огромное судно HMHS Britannic. Прежде всего игра позиционирует себя как учебная среда, где у тебя не будет никаких ограничений в действиях и ты самостоятельно, в своем темпе, сумеешь исследовать локации, постепенно складывая цепочку событий захватывающей истории. Британик считается старшей сестрой небезызвестного корабля под названием Титаник и тоже наделён необычной судьбой, которую нам удастся узнать в мельчайших подробностях. Этот могущественный корабль сделал большой вклад во времена Первой мировой войны, после чего был подвержен трагическому затоплению от злосчастного удара по шахте. С тех пор, как это судно плавало по Средиземному морю, никому не удавалось узнать его изнутри. Данный проект позволяет с головой окунуться в те времена, проникая в глубинные каюты и воссоздавая картину произошедшего, но уже в виртуальном мире. Основной особенностью симулятора следует назвать то, что он был создан при помощи команды исследователей и ведущих британских историков, что указывает на точную достоверность....">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
 
-            <!-- Open Graph / Facebook -->
-            <meta property="og:type" content="website">
-            <meta property="og:url" content="https://thelastmirror.tk/">
-            <meta property="og:title" content="Britannic: Patroness of the Mediterranean - TheLastMirror">
-            <meta property="og:description" content="Britannic Patroness of the Mediterranean – проработанный и максимально реалистичный симулятор исследования, где ты отправляешься на морские просторы, чтобы вдоль и поперек изучить огромное судно HMHS Britannic. Прежде всего игра позиционирует себя как учебная среда, где у тебя не будет никаких ограничений в действиях и ты самостоятельно, в своем темпе, сумеешь исследовать локации, постепенно складывая цепочку событий захватывающей истории. Британик считается старшей сестрой небезызвестного корабля под названием Титаник и тоже наделён необычной судьбой, которую нам удастся узнать в мельчайших подробностях. Этот могущественный корабль сделал большой вклад во времена Первой мировой войны, после чего был подвержен трагическому затоплению от злосчастного удара по шахте. С тех пор, как это судно плавало по Средиземному морю, никому не удавалось узнать его изнутри. Данный проект позволяет с головой окунуться в те времена, проникая в глубинные каюты и воссоздавая картину произошедшего, но уже в виртуальном мире. Основной особенностью симулятора следует назвать то, что он был создан при помощи команды исследователей и ведущих британских историков, что указывает на точную достоверность....">
-            <meta property="og:image" content="https://thelastgame.ru/wp-content/uploads/2020/06/header-97.jpg">
-
-            <!-- Twitter -->
-            <meta property="twitter:card" content="summary_large_image">
-            <meta property="twitter:url" content="https://thelastmirror.tk/">
-            <meta property="twitter:title" content="Britannic: Patroness of the Mediterranean - TheLastMirror">
-            <meta property="twitter:description" content="Britannic Patroness of the Mediterranean – проработанный и максимально реалистичный симулятор исследования, где ты отправляешься на морские просторы, чтобы вдоль и поперек изучить огромное судно HMHS Britannic. Прежде всего игра позиционирует себя как учебная среда, где у тебя не будет никаких ограничений в действиях и ты самостоятельно, в своем темпе, сумеешь исследовать локации, постепенно складывая цепочку событий захватывающей истории. Британик считается старшей сестрой небезызвестного корабля под названием Титаник и тоже наделён необычной судьбой, которую нам удастся узнать в мельчайших подробностях. Этот могущественный корабль сделал большой вклад во времена Первой мировой войны, после чего был подвержен трагическому затоплению от злосчастного удара по шахте. С тех пор, как это судно плавало по Средиземному морю, никому не удавалось узнать его изнутри. Данный проект позволяет с головой окунуться в те времена, проникая в глубинные каюты и воссоздавая картину произошедшего, но уже в виртуальном мире. Основной особенностью симулятора следует назвать то, что он был создан при помощи команды исследователей и ведущих британских историков, что указывает на точную достоверность....">
-            <meta property="twitter:image" content="https://thelastgame.ru/wp-content/uploads/2020/06/header-97.jpg">
-        </head>
-        <body>
-            <div style="text-align: center">
-                <img class="gbanner" src="https://thelastgame.ru/wp-content/uploads/2020/06/header-97.jpg">
-                <h1>Britannic: Patroness of the Mediterranean</h1>
-                <h5>Britannic Patroness of the Mediterranean – проработанный и максимально реалистичный симулятор исследования, где ты отправляешься на морские просторы, чтобы вдоль и поперек изучить огромное судно HMHS Britannic. Прежде всего игра позиционирует себя как учебная среда, где у тебя не будет никаких ограничений в действиях и ты самостоятельно, в своем темпе, сумеешь исследовать локации, постепенно складывая цепочку событий захватывающей истории. Британик считается старшей сестрой небезызвестного корабля под названием Титаник и тоже наделён необычной судьбой, которую нам удастся узнать в мельчайших подробностях. Этот могущественный корабль сделал большой вклад во времена Первой мировой войны, после чего был подвержен трагическому затоплению от злосчастного удара по шахте. С тех пор, как это судно плавало по Средиземному морю, никому не удавалось узнать его изнутри. Данный проект позволяет с головой окунуться в те времена, проникая в глубинные каюты и воссоздавая картину произошедшего, но уже в виртуальном мире. Основной особенностью симулятора следует назвать то, что он был создан при помощи команды исследователей и ведущих британских историков, что указывает на точную достоверность.</h5>
-                <img class="screenshot" src="https://thelastgame.ru/wp-content/uploads/2020/06/ss_a7f159af8cd329cb08aeae1c55bbec5c3044fbe5.1920x1080.jpg"><br><p>Скриншот #0</p>
-    <img class="screenshot" src="https://thelastgame.ru/wp-content/uploads/2020/06/ss_afac7d07dc8c8aecccbcc441bd4e62759b581593.1920x1080.jpg"><br><p>Скриншот #1</p>
-    <img class="screenshot" src="https://thelastgame.ru/wp-content/uploads/2020/06/ss_fdd1330fc2800ef6689f6639b662fef1bc5d5a85.1920x1080.jpg"><br><p>Скриншот #2</p><br>
-                <a class="big_a" href="/games/britannic-patroness-of-the-mediterranean/Britannic_Patroness_of_the_Mediterranean.torrent">Скачать .torrent</a>
-            </div>
-        </body>
-    </html>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/game.css">
+    <title>Britannic: Patroness of the Mediterranean - TheLastMirror</title>
+</head>
+<body>
+    <div class="wrapper">
     
+        <header>
+
+            <a class="logo" href="/">TheLastMirror</a>
+
+        </header>
+
+        <main>
+
+            <div class="line">
+                <span class="header">Britannic: Patroness of the Mediterranean</span>
+                <a class="header download" href="/games/britannic-patroness-of-the-mediterranean/Britannic_Patroness_of_the_Mediterranean.torrent">Скачать .torrent</a>
+            </div>
+
+            <div class="line main">
+                <div class="row">
+                    <img width="460" src="https://thelastgame.ru/wp-content/uploads/2020/06/header-97.jpg " alt="Баннер" class="image">
+                    <div class="screenshots">
+                        <img width="460" src="https://thelastgame.ru/wp-content/uploads/2020/06/ss_a7f159af8cd329cb08aeae1c55bbec5c3044fbe5.1920x1080.jpg" alt="Скриншот">
+<img width="460" src="https://thelastgame.ru/wp-content/uploads/2020/06/ss_afac7d07dc8c8aecccbcc441bd4e62759b581593.1920x1080.jpg" alt="Скриншот">
+<img width="460" src="https://thelastgame.ru/wp-content/uploads/2020/06/ss_fdd1330fc2800ef6689f6639b662fef1bc5d5a85.1920x1080.jpg" alt="Скриншот">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="description">
+                        Britannic Patroness of the Mediterranean – проработанный и максимально реалистичный симулятор исследования, где ты отправляешься на морские просторы, чтобы вдоль и поперек изучить огромное судно HMHS Britannic. Прежде всего игра позиционирует себя как учебная среда, где у тебя не будет никаких ограничений в действиях и ты самостоятельно, в своем темпе, сумеешь исследовать локации, постепенно складывая цепочку событий захватывающей истории. Британик считается старшей сестрой небезызвестного корабля под названием Титаник и тоже наделён необычной судьбой, которую нам удастся узнать в мельчайших подробностях. Этот могущественный корабль сделал большой вклад во времена Первой мировой войны, после чего был подвержен трагическому затоплению от злосчастного удара по шахте. С тех пор, как это судно плавало по Средиземному морю, никому не удавалось узнать его изнутри. Данный проект позволяет с головой окунуться в те времена, проникая в глубинные каюты и воссоздавая картину произошедшего, но уже в виртуальном мире. Основной особенностью симулятора следует назвать то, что он был создан при помощи команды исследователей и ведущих британских историков, что указывает на точную достоверность.
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+</body>
+</html>

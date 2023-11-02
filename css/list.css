@@ -1,0 +1,24 @@
+
+main > ul {
+	display: flex;
+	margin-top: 16px;
+	list-style: none;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+main > ul > li {
+	display: flex;
+	align-items: center;
+	padding: 4px 8px;
+	background-color: #fff;
+	box-shadow: 0 0 10px #aaa;
+	border-radius: 16px;
+	margin-right: 16px;
+	margin-bottom: 16px;
+}
+
+main > ul > li > a:last-child {
+	margin-top: 4px;
+	margin-left: 4px;
+}

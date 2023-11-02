@@ -1,66 +1,45 @@
-<!doctype html>
-    <html>
-        <head>
-            <style>
-                @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
-                :root {
-                    font-family: "Lato", sans-serif;
-                    background-color: rgb(18, 18, 18);
-                    color: #ffffff;
-                }
-                a {
-                    color: #9999ff;
-                }
-                .screenshot {
-                    object-fit: cover;
-                    width: 75%;
-                    max-height: 75%;
-                }
-                .gbanner {
-                    object-fit: cover;
-                    width: 35%;
-                    max-height: 35%;
-                }
-                .grid {
-                    display: grid;
-                    grid-template-columns: 1fr 1fr;
-                    column-gap: 10px;
-                    row-gap: 10px;
-                }
-                .big_a {
-                    font-size: 24px;
-                }
-            </style>
-            <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/thisisignitedoreo/thelastmirror/master/favicon.ico">
-            <title>5D Chess With Multiverse Time Travel - The Last Mirror</title>
-            <!-- Primary Meta Tags -->
-            <meta name="title" content="5D Chess With Multiverse Time Travel - TheLastMirror">
-            <meta name="description" content="5D Chess With Multiverse Time Travel – игра, разработанная в жанре головоломки, где тебе предстоит окунуться в научно-фантастический мир и постараться разгадать все тайны, скрывающиеся в нем. Проще говоря, перед тобой открываются, на первый взгляд самые обычные шахматы, но при этом наделённые пространственными, временными и параллельными измерениями. Игра является первым симулятором шахмат, который позволят игрокам отправиться в путешествие во времени. Прояви свои тактические способности и смекалку, чтобы пройти головоломки, сложность которых с каждым разом имеет свойство увеличиваться. Твоими оппонентами станут сразу четыре ИИ, каждый из которых уникален и хитёр, а поэтому справиться с ним будет не так уж и просто. Игра порадует разнообразием сценариев и стартовых позиций, каждый из которых ты сумеешь покорить. Отличной возможностью является наличие соревновательного режима как с друзьями, так и с игроками по всему миру. Графика проработана на отлично, а интерфейс интуитивно понятен, поэтому ты сумеешь с головой окунуться в этот запутанный, но в то же время захватывающий мир....">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
 
-            <!-- Open Graph / Facebook -->
-            <meta property="og:type" content="website">
-            <meta property="og:url" content="https://thelastmirror.tk/">
-            <meta property="og:title" content="5D Chess With Multiverse Time Travel - TheLastMirror">
-            <meta property="og:description" content="5D Chess With Multiverse Time Travel – игра, разработанная в жанре головоломки, где тебе предстоит окунуться в научно-фантастический мир и постараться разгадать все тайны, скрывающиеся в нем. Проще говоря, перед тобой открываются, на первый взгляд самые обычные шахматы, но при этом наделённые пространственными, временными и параллельными измерениями. Игра является первым симулятором шахмат, который позволят игрокам отправиться в путешествие во времени. Прояви свои тактические способности и смекалку, чтобы пройти головоломки, сложность которых с каждым разом имеет свойство увеличиваться. Твоими оппонентами станут сразу четыре ИИ, каждый из которых уникален и хитёр, а поэтому справиться с ним будет не так уж и просто. Игра порадует разнообразием сценариев и стартовых позиций, каждый из которых ты сумеешь покорить. Отличной возможностью является наличие соревновательного режима как с друзьями, так и с игроками по всему миру. Графика проработана на отлично, а интерфейс интуитивно понятен, поэтому ты сумеешь с головой окунуться в этот запутанный, но в то же время захватывающий мир....">
-            <meta property="og:image" content="https://thelastgame.ru/wp-content/uploads/2020/07/header-71.jpg">
-
-            <!-- Twitter -->
-            <meta property="twitter:card" content="summary_large_image">
-            <meta property="twitter:url" content="https://thelastmirror.tk/">
-            <meta property="twitter:title" content="5D Chess With Multiverse Time Travel - TheLastMirror">
-            <meta property="twitter:description" content="5D Chess With Multiverse Time Travel – игра, разработанная в жанре головоломки, где тебе предстоит окунуться в научно-фантастический мир и постараться разгадать все тайны, скрывающиеся в нем. Проще говоря, перед тобой открываются, на первый взгляд самые обычные шахматы, но при этом наделённые пространственными, временными и параллельными измерениями. Игра является первым симулятором шахмат, который позволят игрокам отправиться в путешествие во времени. Прояви свои тактические способности и смекалку, чтобы пройти головоломки, сложность которых с каждым разом имеет свойство увеличиваться. Твоими оппонентами станут сразу четыре ИИ, каждый из которых уникален и хитёр, а поэтому справиться с ним будет не так уж и просто. Игра порадует разнообразием сценариев и стартовых позиций, каждый из которых ты сумеешь покорить. Отличной возможностью является наличие соревновательного режима как с друзьями, так и с игроками по всему миру. Графика проработана на отлично, а интерфейс интуитивно понятен, поэтому ты сумеешь с головой окунуться в этот запутанный, но в то же время захватывающий мир....">
-            <meta property="twitter:image" content="https://thelastgame.ru/wp-content/uploads/2020/07/header-71.jpg">
-        </head>
-        <body>
-            <div style="text-align: center">
-                <img class="gbanner" src="https://thelastgame.ru/wp-content/uploads/2020/07/header-71.jpg">
-                <h1>5D Chess With Multiverse Time Travel</h1>
-                <h5>5D Chess With Multiverse Time Travel – игра, разработанная в жанре головоломки, где тебе предстоит окунуться в научно-фантастический мир и постараться разгадать все тайны, скрывающиеся в нем. Проще говоря, перед тобой открываются, на первый взгляд самые обычные шахматы, но при этом наделённые пространственными, временными и параллельными измерениями. Игра является первым симулятором шахмат, который позволят игрокам отправиться в путешествие во времени. Прояви свои тактические способности и смекалку, чтобы пройти головоломки, сложность которых с каждым разом имеет свойство увеличиваться. Твоими оппонентами станут сразу четыре ИИ, каждый из которых уникален и хитёр, а поэтому справиться с ним будет не так уж и просто. Игра порадует разнообразием сценариев и стартовых позиций, каждый из которых ты сумеешь покорить. Отличной возможностью является наличие соревновательного режима как с друзьями, так и с игроками по всему миру. Графика проработана на отлично, а интерфейс интуитивно понятен, поэтому ты сумеешь с головой окунуться в этот запутанный, но в то же время захватывающий мир.</h5>
-                <img class="screenshot" src="https://thelastgame.ru/wp-content/uploads/2020/07/ss_97f16569f6535e3cc068da1c32d7c42e149d83eb.1920x1080.jpg"><br><p>Скриншот #0</p>
-    <img class="screenshot" src="https://thelastgame.ru/wp-content/uploads/2020/07/ss_8671aee1582b3b0ec520d260f29d7841bbda86c8.1920x1080.jpg"><br><p>Скриншот #1</p>
-    <img class="screenshot" src="https://thelastgame.ru/wp-content/uploads/2020/07/ss_d49c1deffd14240dad6060fa66870621a538ddfd.1920x1080.jpg"><br><p>Скриншот #2</p><br>
-                <a class="big_a" href="/games/5d-chess-with-multiverse-time-travel/5D_Chess_With_Multiverse_Time_Travel.torrent">Скачать .torrent</a>
-            </div>
-        </body>
-    </html>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/game.css">
+    <title>5D Chess With Multiverse Time Travel - TheLastMirror</title>
+</head>
+<body>
+    <div class="wrapper">
     
+        <header>
+
+            <a class="logo" href="/">TheLastMirror</a>
+
+        </header>
+
+        <main>
+
+            <div class="line">
+                <span class="header">5D Chess With Multiverse Time Travel</span>
+                <a class="header download" href="/games/5d-chess-with-multiverse-time-travel/5D_Chess_With_Multiverse_Time_Travel.torrent">Скачать .torrent</a>
+            </div>
+
+            <div class="line main">
+                <div class="row">
+                    <img width="460" src="https://thelastgame.ru/wp-content/uploads/2020/07/header-71.jpg " alt="Баннер" class="image">
+                    <div class="screenshots">
+                        <img width="460" src="https://thelastgame.ru/wp-content/uploads/2020/07/ss_97f16569f6535e3cc068da1c32d7c42e149d83eb.1920x1080.jpg" alt="Скриншот">
+<img width="460" src="https://thelastgame.ru/wp-content/uploads/2020/07/ss_8671aee1582b3b0ec520d260f29d7841bbda86c8.1920x1080.jpg" alt="Скриншот">
+<img width="460" src="https://thelastgame.ru/wp-content/uploads/2020/07/ss_d49c1deffd14240dad6060fa66870621a538ddfd.1920x1080.jpg" alt="Скриншот">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="description">
+                        5D Chess With Multiverse Time Travel – игра, разработанная в жанре головоломки, где тебе предстоит окунуться в научно-фантастический мир и постараться разгадать все тайны, скрывающиеся в нем. Проще говоря, перед тобой открываются, на первый взгляд самые обычные шахматы, но при этом наделённые пространственными, временными и параллельными измерениями. Игра является первым симулятором шахмат, который позволят игрокам отправиться в путешествие во времени. Прояви свои тактические способности и смекалку, чтобы пройти головоломки, сложность которых с каждым разом имеет свойство увеличиваться. Твоими оппонентами станут сразу четыре ИИ, каждый из которых уникален и хитёр, а поэтому справиться с ним будет не так уж и просто. Игра порадует разнообразием сценариев и стартовых позиций, каждый из которых ты сумеешь покорить. Отличной возможностью является наличие соревновательного режима как с друзьями, так и с игроками по всему миру. Графика проработана на отлично, а интерфейс интуитивно понятен, поэтому ты сумеешь с головой окунуться в этот запутанный, но в то же время захватывающий мир.
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+</body>
+</html>

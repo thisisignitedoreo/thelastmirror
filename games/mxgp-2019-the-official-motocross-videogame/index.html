@@ -1,66 +1,45 @@
-<!doctype html>
-    <html>
-        <head>
-            <style>
-                @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
-                :root {
-                    font-family: "Lato", sans-serif;
-                    background-color: rgb(18, 18, 18);
-                    color: #ffffff;
-                }
-                a {
-                    color: #9999ff;
-                }
-                .screenshot {
-                    object-fit: cover;
-                    width: 75%;
-                    max-height: 75%;
-                }
-                .gbanner {
-                    object-fit: cover;
-                    width: 35%;
-                    max-height: 35%;
-                }
-                .grid {
-                    display: grid;
-                    grid-template-columns: 1fr 1fr;
-                    column-gap: 10px;
-                    row-gap: 10px;
-                }
-                .big_a {
-                    font-size: 24px;
-                }
-            </style>
-            <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/thisisignitedoreo/thelastmirror/master/favicon.ico">
-            <title>MXGP 2019 - The Official Motocross Videogame - The Last Mirror</title>
-            <!-- Primary Meta Tags -->
-            <meta name="title" content="MXGP 2019 - The Official Motocross Videogame - TheLastMirror">
-            <meta name="description" content="MXGP 2019 — The Official Motocross Videogame – динамичный игровой проект в гоночной стилистике, где тебе предстоит стать участником безумных соревнований, взяв под контроль мощный мотоцикл. Сюжетная линия отправит тебя на мировой чемпионат 2019 года, где ты сможешь стать свидетелем всех официально существующих событий касательно этого действа. У тебя будет возможность не только познакомится со знаменитыми командами, но и принять участие в составе одной из них. Возьмись за исполнение роли гонщика мирового уровня, либо создай своего и пройди путь к своей мечте. Трасс в игре более чем достаточно, а также есть возможность их видоизменять, а затем делиться со своей командой. Сюжетная линия расскажет тебе о конфликте и вражде сразу между несколькими гонщиками. Все дело в том, что каждый из них мечтает одержать победу на мировом чемпионате, что сделать будет очень непросто. Рейтинговая таблица включает в себя огромное количество участников, поэтому пробиться к ее вершине ещё нужно постараться. Развивай свои навыки, улучшай функционал байка и сделай все возможное, чтобы стать мировым чемпионом....">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
 
-            <!-- Open Graph / Facebook -->
-            <meta property="og:type" content="website">
-            <meta property="og:url" content="https://thelastmirror.tk/">
-            <meta property="og:title" content="MXGP 2019 - The Official Motocross Videogame - TheLastMirror">
-            <meta property="og:description" content="MXGP 2019 — The Official Motocross Videogame – динамичный игровой проект в гоночной стилистике, где тебе предстоит стать участником безумных соревнований, взяв под контроль мощный мотоцикл. Сюжетная линия отправит тебя на мировой чемпионат 2019 года, где ты сможешь стать свидетелем всех официально существующих событий касательно этого действа. У тебя будет возможность не только познакомится со знаменитыми командами, но и принять участие в составе одной из них. Возьмись за исполнение роли гонщика мирового уровня, либо создай своего и пройди путь к своей мечте. Трасс в игре более чем достаточно, а также есть возможность их видоизменять, а затем делиться со своей командой. Сюжетная линия расскажет тебе о конфликте и вражде сразу между несколькими гонщиками. Все дело в том, что каждый из них мечтает одержать победу на мировом чемпионате, что сделать будет очень непросто. Рейтинговая таблица включает в себя огромное количество участников, поэтому пробиться к ее вершине ещё нужно постараться. Развивай свои навыки, улучшай функционал байка и сделай все возможное, чтобы стать мировым чемпионом....">
-            <meta property="og:image" content="https://thelastgame.ru/wp-content/uploads/2019/08/header-97.jpg">
-
-            <!-- Twitter -->
-            <meta property="twitter:card" content="summary_large_image">
-            <meta property="twitter:url" content="https://thelastmirror.tk/">
-            <meta property="twitter:title" content="MXGP 2019 - The Official Motocross Videogame - TheLastMirror">
-            <meta property="twitter:description" content="MXGP 2019 — The Official Motocross Videogame – динамичный игровой проект в гоночной стилистике, где тебе предстоит стать участником безумных соревнований, взяв под контроль мощный мотоцикл. Сюжетная линия отправит тебя на мировой чемпионат 2019 года, где ты сможешь стать свидетелем всех официально существующих событий касательно этого действа. У тебя будет возможность не только познакомится со знаменитыми командами, но и принять участие в составе одной из них. Возьмись за исполнение роли гонщика мирового уровня, либо создай своего и пройди путь к своей мечте. Трасс в игре более чем достаточно, а также есть возможность их видоизменять, а затем делиться со своей командой. Сюжетная линия расскажет тебе о конфликте и вражде сразу между несколькими гонщиками. Все дело в том, что каждый из них мечтает одержать победу на мировом чемпионате, что сделать будет очень непросто. Рейтинговая таблица включает в себя огромное количество участников, поэтому пробиться к ее вершине ещё нужно постараться. Развивай свои навыки, улучшай функционал байка и сделай все возможное, чтобы стать мировым чемпионом....">
-            <meta property="twitter:image" content="https://thelastgame.ru/wp-content/uploads/2019/08/header-97.jpg">
-        </head>
-        <body>
-            <div style="text-align: center">
-                <img class="gbanner" src="https://thelastgame.ru/wp-content/uploads/2019/08/header-97.jpg">
-                <h1>MXGP 2019 - The Official Motocross Videogame</h1>
-                <h5>MXGP 2019 — The Official Motocross Videogame – динамичный игровой проект в гоночной стилистике, где тебе предстоит стать участником безумных соревнований, взяв под контроль мощный мотоцикл. Сюжетная линия отправит тебя на мировой чемпионат 2019 года, где ты сможешь стать свидетелем всех официально существующих событий касательно этого действа. У тебя будет возможность не только познакомится со знаменитыми командами, но и принять участие в составе одной из них. Возьмись за исполнение роли гонщика мирового уровня, либо создай своего и пройди путь к своей мечте. Трасс в игре более чем достаточно, а также есть возможность их видоизменять, а затем делиться со своей командой. Сюжетная линия расскажет тебе о конфликте и вражде сразу между несколькими гонщиками. Все дело в том, что каждый из них мечтает одержать победу на мировом чемпионате, что сделать будет очень непросто. Рейтинговая таблица включает в себя огромное количество участников, поэтому пробиться к ее вершине ещё нужно постараться. Развивай свои навыки, улучшай функционал байка и сделай все возможное, чтобы стать мировым чемпионом.</h5>
-                <img class="screenshot" src="https://thelastgame.ru/wp-content/uploads/2019/08/ss_8b075fc3da3e80861f76ffdd1efa624d348612da.1920x1080.jpg"><br><p>Скриншот #0</p>
-    <img class="screenshot" src="https://thelastgame.ru/wp-content/uploads/2019/08/ss_91e4e3b60a4c768e9ebfc8dbc57fe93763d85906.1920x1080.jpg"><br><p>Скриншот #1</p>
-    <img class="screenshot" src="https://thelastgame.ru/wp-content/uploads/2019/08/ss_e47a447b749bbe5f2fdbd13b72fa4b9a1d98c90e.1920x1080.jpg"><br><p>Скриншот #2</p><br>
-                <a class="big_a" href="/games/mxgp-2019-the-official-motocross-videogame/MXGP_2019_The_Official_Motocross_Videogame.torrent">Скачать .torrent</a>
-            </div>
-        </body>
-    </html>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/game.css">
+    <title>MXGP 2019 - The Official Motocross Videogame - TheLastMirror</title>
+</head>
+<body>
+    <div class="wrapper">
     
+        <header>
+
+            <a class="logo" href="/">TheLastMirror</a>
+
+        </header>
+
+        <main>
+
+            <div class="line">
+                <span class="header">MXGP 2019 - The Official Motocross Videogame</span>
+                <a class="header download" href="/games/mxgp-2019-the-official-motocross-videogame/MXGP_2019_The_Official_Motocross_Videogame.torrent">Скачать .torrent</a>
+            </div>
+
+            <div class="line main">
+                <div class="row">
+                    <img width="460" src="https://thelastgame.ru/wp-content/uploads/2019/08/header-97.jpg " alt="Баннер" class="image">
+                    <div class="screenshots">
+                        <img width="460" src="https://thelastgame.ru/wp-content/uploads/2019/08/ss_8b075fc3da3e80861f76ffdd1efa624d348612da.1920x1080.jpg" alt="Скриншот">
+<img width="460" src="https://thelastgame.ru/wp-content/uploads/2019/08/ss_91e4e3b60a4c768e9ebfc8dbc57fe93763d85906.1920x1080.jpg" alt="Скриншот">
+<img width="460" src="https://thelastgame.ru/wp-content/uploads/2019/08/ss_e47a447b749bbe5f2fdbd13b72fa4b9a1d98c90e.1920x1080.jpg" alt="Скриншот">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="description">
+                        MXGP 2019 — The Official Motocross Videogame – динамичный игровой проект в гоночной стилистике, где тебе предстоит стать участником безумных соревнований, взяв под контроль мощный мотоцикл. Сюжетная линия отправит тебя на мировой чемпионат 2019 года, где ты сможешь стать свидетелем всех официально существующих событий касательно этого действа. У тебя будет возможность не только познакомится со знаменитыми командами, но и принять участие в составе одной из них. Возьмись за исполнение роли гонщика мирового уровня, либо создай своего и пройди путь к своей мечте. Трасс в игре более чем достаточно, а также есть возможность их видоизменять, а затем делиться со своей командой. Сюжетная линия расскажет тебе о конфликте и вражде сразу между несколькими гонщиками. Все дело в том, что каждый из них мечтает одержать победу на мировом чемпионате, что сделать будет очень непросто. Рейтинговая таблица включает в себя огромное количество участников, поэтому пробиться к ее вершине ещё нужно постараться. Развивай свои навыки, улучшай функционал байка и сделай все возможное, чтобы стать мировым чемпионом.
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+</body>
+</html>

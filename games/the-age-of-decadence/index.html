@@ -1,66 +1,45 @@
-<!doctype html>
-    <html>
-        <head>
-            <style>
-                @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
-                :root {
-                    font-family: "Lato", sans-serif;
-                    background-color: rgb(18, 18, 18);
-                    color: #ffffff;
-                }
-                a {
-                    color: #9999ff;
-                }
-                .screenshot {
-                    object-fit: cover;
-                    width: 75%;
-                    max-height: 75%;
-                }
-                .gbanner {
-                    object-fit: cover;
-                    width: 35%;
-                    max-height: 35%;
-                }
-                .grid {
-                    display: grid;
-                    grid-template-columns: 1fr 1fr;
-                    column-gap: 10px;
-                    row-gap: 10px;
-                }
-                .big_a {
-                    font-size: 24px;
-                }
-            </style>
-            <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/thisisignitedoreo/thelastmirror/master/favicon.ico">
-            <title>The Age of Decadence - The Last Mirror</title>
-            <!-- Primary Meta Tags -->
-            <meta name="title" content="The Age of Decadence - TheLastMirror">
-            <meta name="description" content="The Age of Decadence – игра в жанре одиночной РПГ, с пошаговым режимом боёв, где все действия будут происходить в мире фентези. Тебя ждёт здесь альтернативная реальность, которая таит огромный и открытый для достижений мир. Отправляйся во времена, когда Рим потерпел крах. В данном проекте имеется отлично проработанная система прокачки героев, где ты сможешь с лёгкостью стать тем, кем только пожелаешь. Стань самым простым вором и пройди путь до самого знаменитого, либо же выбери роль мага, который, изучив все заклинания, станет самым могущественным и непобедимым. Чтобы стать лучшим из лучших, тебе предстоит одолеть массу препятствий и пройти довольно непростой путь, сражаясь с многочисленными соперниками. Мир, в котором тебе предстоит оказаться, просто до краев переполнен тайнами и сюрпризами, где все твои решения будут влиять на дальнейшее развитие и конечный исход событий. Будь внимательным и осторожным и тогда ты сможешь достичь поставленной цели....">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
 
-            <!-- Open Graph / Facebook -->
-            <meta property="og:type" content="website">
-            <meta property="og:url" content="https://thelastmirror.tk/">
-            <meta property="og:title" content="The Age of Decadence - TheLastMirror">
-            <meta property="og:description" content="The Age of Decadence – игра в жанре одиночной РПГ, с пошаговым режимом боёв, где все действия будут происходить в мире фентези. Тебя ждёт здесь альтернативная реальность, которая таит огромный и открытый для достижений мир. Отправляйся во времена, когда Рим потерпел крах. В данном проекте имеется отлично проработанная система прокачки героев, где ты сможешь с лёгкостью стать тем, кем только пожелаешь. Стань самым простым вором и пройди путь до самого знаменитого, либо же выбери роль мага, который, изучив все заклинания, станет самым могущественным и непобедимым. Чтобы стать лучшим из лучших, тебе предстоит одолеть массу препятствий и пройти довольно непростой путь, сражаясь с многочисленными соперниками. Мир, в котором тебе предстоит оказаться, просто до краев переполнен тайнами и сюрпризами, где все твои решения будут влиять на дальнейшее развитие и конечный исход событий. Будь внимательным и осторожным и тогда ты сможешь достичь поставленной цели....">
-            <meta property="og:image" content="https://thelastgame.ru/wp-content/uploads/2017/12/header-176.jpg">
-
-            <!-- Twitter -->
-            <meta property="twitter:card" content="summary_large_image">
-            <meta property="twitter:url" content="https://thelastmirror.tk/">
-            <meta property="twitter:title" content="The Age of Decadence - TheLastMirror">
-            <meta property="twitter:description" content="The Age of Decadence – игра в жанре одиночной РПГ, с пошаговым режимом боёв, где все действия будут происходить в мире фентези. Тебя ждёт здесь альтернативная реальность, которая таит огромный и открытый для достижений мир. Отправляйся во времена, когда Рим потерпел крах. В данном проекте имеется отлично проработанная система прокачки героев, где ты сможешь с лёгкостью стать тем, кем только пожелаешь. Стань самым простым вором и пройди путь до самого знаменитого, либо же выбери роль мага, который, изучив все заклинания, станет самым могущественным и непобедимым. Чтобы стать лучшим из лучших, тебе предстоит одолеть массу препятствий и пройти довольно непростой путь, сражаясь с многочисленными соперниками. Мир, в котором тебе предстоит оказаться, просто до краев переполнен тайнами и сюрпризами, где все твои решения будут влиять на дальнейшее развитие и конечный исход событий. Будь внимательным и осторожным и тогда ты сможешь достичь поставленной цели....">
-            <meta property="twitter:image" content="https://thelastgame.ru/wp-content/uploads/2017/12/header-176.jpg">
-        </head>
-        <body>
-            <div style="text-align: center">
-                <img class="gbanner" src="https://thelastgame.ru/wp-content/uploads/2017/12/header-176.jpg">
-                <h1>The Age of Decadence</h1>
-                <h5>The Age of Decadence – игра в жанре одиночной РПГ, с пошаговым режимом боёв, где все действия будут происходить в мире фентези. Тебя ждёт здесь альтернативная реальность, которая таит огромный и открытый для достижений мир. Отправляйся во времена, когда Рим потерпел крах. В данном проекте имеется отлично проработанная система прокачки героев, где ты сможешь с лёгкостью стать тем, кем только пожелаешь. Стань самым простым вором и пройди путь до самого знаменитого, либо же выбери роль мага, который, изучив все заклинания, станет самым могущественным и непобедимым. Чтобы стать лучшим из лучших, тебе предстоит одолеть массу препятствий и пройти довольно непростой путь, сражаясь с многочисленными соперниками. Мир, в котором тебе предстоит оказаться, просто до краев переполнен тайнами и сюрпризами, где все твои решения будут влиять на дальнейшее развитие и конечный исход событий. Будь внимательным и осторожным и тогда ты сможешь достичь поставленной цели.</h5>
-                <img class="screenshot" src="https://thelastgame.ru/wp-content/uploads/2017/12/ss_2c8f646531be1854a02db4e28b7d1b1e2f75df5d.1920x1080.jpg"><br><p>Скриншот #0</p>
-    <img class="screenshot" src="https://thelastgame.ru/wp-content/uploads/2017/12/ss_212c74c20515fa7fc8656f366edb230c2fb7dfc0.1920x1080.jpg"><br><p>Скриншот #1</p>
-    <img class="screenshot" src="https://thelastgame.ru/wp-content/uploads/2017/12/ss_3087b7e51ab2cca4e3f014af9917e750c0dc7852.1920x1080.jpg"><br><p>Скриншот #2</p><br>
-                <a class="big_a" href="/games/the-age-of-decadence/The_Age_of_Decadence.torrent">Скачать .torrent</a>
-            </div>
-        </body>
-    </html>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/game.css">
+    <title>The Age of Decadence - TheLastMirror</title>
+</head>
+<body>
+    <div class="wrapper">
     
+        <header>
+
+            <a class="logo" href="/">TheLastMirror</a>
+
+        </header>
+
+        <main>
+
+            <div class="line">
+                <span class="header">The Age of Decadence</span>
+                <a class="header download" href="/games/the-age-of-decadence/The_Age_of_Decadence.torrent">Скачать .torrent</a>
+            </div>
+
+            <div class="line main">
+                <div class="row">
+                    <img width="460" src="https://thelastgame.ru/wp-content/uploads/2017/12/header-176.jpg " alt="Баннер" class="image">
+                    <div class="screenshots">
+                        <img width="460" src="https://thelastgame.ru/wp-content/uploads/2017/12/ss_2c8f646531be1854a02db4e28b7d1b1e2f75df5d.1920x1080.jpg" alt="Скриншот">
+<img width="460" src="https://thelastgame.ru/wp-content/uploads/2017/12/ss_212c74c20515fa7fc8656f366edb230c2fb7dfc0.1920x1080.jpg" alt="Скриншот">
+<img width="460" src="https://thelastgame.ru/wp-content/uploads/2017/12/ss_3087b7e51ab2cca4e3f014af9917e750c0dc7852.1920x1080.jpg" alt="Скриншот">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="description">
+                        The Age of Decadence – игра в жанре одиночной РПГ, с пошаговым режимом боёв, где все действия будут происходить в мире фентези. Тебя ждёт здесь альтернативная реальность, которая таит огромный и открытый для достижений мир. Отправляйся во времена, когда Рим потерпел крах. В данном проекте имеется отлично проработанная система прокачки героев, где ты сможешь с лёгкостью стать тем, кем только пожелаешь. Стань самым простым вором и пройди путь до самого знаменитого, либо же выбери роль мага, который, изучив все заклинания, станет самым могущественным и непобедимым. Чтобы стать лучшим из лучших, тебе предстоит одолеть массу препятствий и пройти довольно непростой путь, сражаясь с многочисленными соперниками. Мир, в котором тебе предстоит оказаться, просто до краев переполнен тайнами и сюрпризами, где все твои решения будут влиять на дальнейшее развитие и конечный исход событий. Будь внимательным и осторожным и тогда ты сможешь достичь поставленной цели.
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+</body>
+</html>

@@ -1,0 +1,91 @@
+
+.pageCount {
+	display: flex;
+	align-items: center;
+	margin-top: 16px;
+	padding: 4px;
+	background-color: #fff;
+	box-shadow: 0 0 10px #aaa;
+	border-radius: 16px;
+}
+
+header > ul > li {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+header > ul > li > span {
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.back, .forward {
+	background-repeat: no-repeat;
+	background-size: 24px;
+	width: 24px;
+	height: 24px;
+}
+
+.back {
+	background-image: url(../img/arrow_back.svg);
+}
+
+.forward {
+	background-image: url(../img/arrow_forward.svg);
+}
+
+.pageCount > * {
+	padding-right: 8px;
+}
+
+.pageCount > *:last-child {
+	padding-right: 0;
+}
+
+.pageCount > span {
+	padding-bottom: 2px;
+}
+
+.grid {
+	list-style: none;
+	display: flex;
+	margin-top: 16px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.grid > li {
+	margin-right: 16px;
+	margin-bottom: 16px;
+}
+
+.grid > li:nth-child(even) {
+	margin-right: 0;
+}
+
+.grid > li:last-child {
+	margin-bottom: 0;
+}
+
+.grid > li > a {
+	display: flex;
+	background-size: 460px auto;
+	width: calc(460px - 32px);
+	height: calc(215px - 32px);
+	border: 5px solid #fff;
+	border-radius: 16px;
+	box-shadow: 0 0 10px #aaa;
+	flex-direction: column;
+	color: #fff;
+	justify-content: end;
+	padding: 16px;
+}
+
+.grid > li span:first-child {
+	font-size: 32px;
+}
+
+.grid > li span:last-child {
+	font-size: 16px;
+}

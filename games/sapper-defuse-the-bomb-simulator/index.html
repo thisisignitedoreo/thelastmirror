@@ -1,66 +1,45 @@
-<!doctype html>
-    <html>
-        <head>
-            <style>
-                @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
-                :root {
-                    font-family: "Lato", sans-serif;
-                    background-color: rgb(18, 18, 18);
-                    color: #ffffff;
-                }
-                a {
-                    color: #9999ff;
-                }
-                .screenshot {
-                    object-fit: cover;
-                    width: 75%;
-                    max-height: 75%;
-                }
-                .gbanner {
-                    object-fit: cover;
-                    width: 35%;
-                    max-height: 35%;
-                }
-                .grid {
-                    display: grid;
-                    grid-template-columns: 1fr 1fr;
-                    column-gap: 10px;
-                    row-gap: 10px;
-                }
-                .big_a {
-                    font-size: 24px;
-                }
-            </style>
-            <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/thisisignitedoreo/thelastmirror/master/favicon.ico">
-            <title>Sapper - Defuse The Bomb Simulator - The Last Mirror</title>
-            <!-- Primary Meta Tags -->
-            <meta name="title" content="Sapper - Defuse The Bomb Simulator - TheLastMirror">
-            <meta name="description" content="Sapper — Defuse The Bomb Simulator – проект, разработанный в жанре симулятора, где нам предстоит исполнить довольно необычную роль – роль профессионального сапёра. Игра предоставит все условия, чтобы ты в полной мере прочувствовал на себе ответственность и важность такой работы. Опасность будет поджидать тебя на каждом шагу, а поэтому важно просчитывать всё заранее, чтобы не сделать ошибок. Каждая новая миссия будет ограничена во времени, которое, если ты не сможешь вложиться, приведет к самому печальному результату. Не забывай постоянно развивать свои навыки и профессиональные характеристики, ведь это позволит не только быстрее справляться с задачами, но и браться за более сложные. Графика игры одновременно простая, но довольно реалистичная, поэтому ты сможешь в полной мере окунуться в атмосферу....">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
 
-            <!-- Open Graph / Facebook -->
-            <meta property="og:type" content="website">
-            <meta property="og:url" content="https://thelastmirror.tk/">
-            <meta property="og:title" content="Sapper - Defuse The Bomb Simulator - TheLastMirror">
-            <meta property="og:description" content="Sapper — Defuse The Bomb Simulator – проект, разработанный в жанре симулятора, где нам предстоит исполнить довольно необычную роль – роль профессионального сапёра. Игра предоставит все условия, чтобы ты в полной мере прочувствовал на себе ответственность и важность такой работы. Опасность будет поджидать тебя на каждом шагу, а поэтому важно просчитывать всё заранее, чтобы не сделать ошибок. Каждая новая миссия будет ограничена во времени, которое, если ты не сможешь вложиться, приведет к самому печальному результату. Не забывай постоянно развивать свои навыки и профессиональные характеристики, ведь это позволит не только быстрее справляться с задачами, но и браться за более сложные. Графика игры одновременно простая, но довольно реалистичная, поэтому ты сможешь в полной мере окунуться в атмосферу....">
-            <meta property="og:image" content="https://thelastgame.ru/wp-content/uploads/2023/01/header-39.jpg">
-
-            <!-- Twitter -->
-            <meta property="twitter:card" content="summary_large_image">
-            <meta property="twitter:url" content="https://thelastmirror.tk/">
-            <meta property="twitter:title" content="Sapper - Defuse The Bomb Simulator - TheLastMirror">
-            <meta property="twitter:description" content="Sapper — Defuse The Bomb Simulator – проект, разработанный в жанре симулятора, где нам предстоит исполнить довольно необычную роль – роль профессионального сапёра. Игра предоставит все условия, чтобы ты в полной мере прочувствовал на себе ответственность и важность такой работы. Опасность будет поджидать тебя на каждом шагу, а поэтому важно просчитывать всё заранее, чтобы не сделать ошибок. Каждая новая миссия будет ограничена во времени, которое, если ты не сможешь вложиться, приведет к самому печальному результату. Не забывай постоянно развивать свои навыки и профессиональные характеристики, ведь это позволит не только быстрее справляться с задачами, но и браться за более сложные. Графика игры одновременно простая, но довольно реалистичная, поэтому ты сможешь в полной мере окунуться в атмосферу....">
-            <meta property="twitter:image" content="https://thelastgame.ru/wp-content/uploads/2023/01/header-39.jpg">
-        </head>
-        <body>
-            <div style="text-align: center">
-                <img class="gbanner" src="https://thelastgame.ru/wp-content/uploads/2023/01/header-39.jpg">
-                <h1>Sapper - Defuse The Bomb Simulator</h1>
-                <h5>Sapper — Defuse The Bomb Simulator – проект, разработанный в жанре симулятора, где нам предстоит исполнить довольно необычную роль – роль профессионального сапёра. Игра предоставит все условия, чтобы ты в полной мере прочувствовал на себе ответственность и важность такой работы. Опасность будет поджидать тебя на каждом шагу, а поэтому важно просчитывать всё заранее, чтобы не сделать ошибок. Каждая новая миссия будет ограничена во времени, которое, если ты не сможешь вложиться, приведет к самому печальному результату. Не забывай постоянно развивать свои навыки и профессиональные характеристики, ведь это позволит не только быстрее справляться с задачами, но и браться за более сложные. Графика игры одновременно простая, но довольно реалистичная, поэтому ты сможешь в полной мере окунуться в атмосферу.</h5>
-                <img class="screenshot" src="https://thelastgame.ru/wp-content/uploads/2023/01/ss_0ed082a0c9b5cdb7335f9255487e6b0a9d16640d.1920x1080.jpg"><br><p>Скриншот #0</p>
-    <img class="screenshot" src="https://thelastgame.ru/wp-content/uploads/2023/01/ss_5378c0f67ab2e4190582c4b495f27aa5b324f3f2.1920x1080.jpg"><br><p>Скриншот #1</p>
-    <img class="screenshot" src="https://thelastgame.ru/wp-content/uploads/2023/01/ss_385031e3eda204a856be74bc13f73930ba5a005e.1920x1080.jpg"><br><p>Скриншот #2</p><br>
-                <a class="big_a" href="/games/sapper-defuse-the-bomb-simulator/Sapper_Defuse_The_Bomb_Simulator.torrent">Скачать .torrent</a>
-            </div>
-        </body>
-    </html>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/game.css">
+    <title>Sapper - Defuse The Bomb Simulator - TheLastMirror</title>
+</head>
+<body>
+    <div class="wrapper">
     
+        <header>
+
+            <a class="logo" href="/">TheLastMirror</a>
+
+        </header>
+
+        <main>
+
+            <div class="line">
+                <span class="header">Sapper - Defuse The Bomb Simulator</span>
+                <a class="header download" href="/games/sapper-defuse-the-bomb-simulator/Sapper_Defuse_The_Bomb_Simulator.torrent">Скачать .torrent</a>
+            </div>
+
+            <div class="line main">
+                <div class="row">
+                    <img width="460" src="https://thelastgame.ru/wp-content/uploads/2023/01/header-39.jpg " alt="Баннер" class="image">
+                    <div class="screenshots">
+                        <img width="460" src="https://thelastgame.ru/wp-content/uploads/2023/01/ss_0ed082a0c9b5cdb7335f9255487e6b0a9d16640d.1920x1080.jpg" alt="Скриншот">
+<img width="460" src="https://thelastgame.ru/wp-content/uploads/2023/01/ss_5378c0f67ab2e4190582c4b495f27aa5b324f3f2.1920x1080.jpg" alt="Скриншот">
+<img width="460" src="https://thelastgame.ru/wp-content/uploads/2023/01/ss_385031e3eda204a856be74bc13f73930ba5a005e.1920x1080.jpg" alt="Скриншот">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="description">
+                        Sapper — Defuse The Bomb Simulator – проект, разработанный в жанре симулятора, где нам предстоит исполнить довольно необычную роль – роль профессионального сапёра. Игра предоставит все условия, чтобы ты в полной мере прочувствовал на себе ответственность и важность такой работы. Опасность будет поджидать тебя на каждом шагу, а поэтому важно просчитывать всё заранее, чтобы не сделать ошибок. Каждая новая миссия будет ограничена во времени, которое, если ты не сможешь вложиться, приведет к самому печальному результату. Не забывай постоянно развивать свои навыки и профессиональные характеристики, ведь это позволит не только быстрее справляться с задачами, но и браться за более сложные. Графика игры одновременно простая, но довольно реалистичная, поэтому ты сможешь в полной мере окунуться в атмосферу.
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+</body>
+</html>

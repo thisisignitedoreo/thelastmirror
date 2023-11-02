@@ -1,66 +1,45 @@
-<!doctype html>
-    <html>
-        <head>
-            <style>
-                @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
-                :root {
-                    font-family: "Lato", sans-serif;
-                    background-color: rgb(18, 18, 18);
-                    color: #ffffff;
-                }
-                a {
-                    color: #9999ff;
-                }
-                .screenshot {
-                    object-fit: cover;
-                    width: 75%;
-                    max-height: 75%;
-                }
-                .gbanner {
-                    object-fit: cover;
-                    width: 35%;
-                    max-height: 35%;
-                }
-                .grid {
-                    display: grid;
-                    grid-template-columns: 1fr 1fr;
-                    column-gap: 10px;
-                    row-gap: 10px;
-                }
-                .big_a {
-                    font-size: 24px;
-                }
-            </style>
-            <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/thisisignitedoreo/thelastmirror/master/favicon.ico">
-            <title>Fish Simulator: Aquarium Manager - The Last Mirror</title>
-            <!-- Primary Meta Tags -->
-            <meta name="title" content="Fish Simulator: Aquarium Manager - TheLastMirror">
-            <meta name="description" content="Fish Simulator Aquarium Manager – красочный и увлекательный симулятор, где ты погрузишься в загадочный и интересный мир аквариума. Постепенно ты будешь знакомиться с новыми и самыми редкими видами рыб, проходить через яркие локации и заниматься полезным, интересным делом. У тебя есть несколько простых видов водных жителей, которые затем будут постепенно пополняться и размножаться. При правильном уходе у тебя получится создать что-то совершенно уникальное и необычное. Коллекция должна быть заполнена и большими, и маленькими, редкими и самыми красивыми видами. Добиться такого результата будет непросто, ведь необходимо пройти ряд испытаний и столкнуться с преградами на пути. Особое внимание нужно уделить именно среде обитания, ведь в той где могут существовать одни виды, не смогут выжить другие. По управлению и уходу у тебя будет полная свобода действий. Многие виды любят экзотическую пищу, которую ты должен им обеспечить, чтобы они жили в своей среде. Прогрессируй и развивай свои таланты, что даст тебе доступ открыть ещё больше рыб....">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
 
-            <!-- Open Graph / Facebook -->
-            <meta property="og:type" content="website">
-            <meta property="og:url" content="https://thelastmirror.tk/">
-            <meta property="og:title" content="Fish Simulator: Aquarium Manager - TheLastMirror">
-            <meta property="og:description" content="Fish Simulator Aquarium Manager – красочный и увлекательный симулятор, где ты погрузишься в загадочный и интересный мир аквариума. Постепенно ты будешь знакомиться с новыми и самыми редкими видами рыб, проходить через яркие локации и заниматься полезным, интересным делом. У тебя есть несколько простых видов водных жителей, которые затем будут постепенно пополняться и размножаться. При правильном уходе у тебя получится создать что-то совершенно уникальное и необычное. Коллекция должна быть заполнена и большими, и маленькими, редкими и самыми красивыми видами. Добиться такого результата будет непросто, ведь необходимо пройти ряд испытаний и столкнуться с преградами на пути. Особое внимание нужно уделить именно среде обитания, ведь в той где могут существовать одни виды, не смогут выжить другие. По управлению и уходу у тебя будет полная свобода действий. Многие виды любят экзотическую пищу, которую ты должен им обеспечить, чтобы они жили в своей среде. Прогрессируй и развивай свои таланты, что даст тебе доступ открыть ещё больше рыб....">
-            <meta property="og:image" content="https://thelastgame.ru/wp-content/uploads/2020/02/header-25.jpg">
-
-            <!-- Twitter -->
-            <meta property="twitter:card" content="summary_large_image">
-            <meta property="twitter:url" content="https://thelastmirror.tk/">
-            <meta property="twitter:title" content="Fish Simulator: Aquarium Manager - TheLastMirror">
-            <meta property="twitter:description" content="Fish Simulator Aquarium Manager – красочный и увлекательный симулятор, где ты погрузишься в загадочный и интересный мир аквариума. Постепенно ты будешь знакомиться с новыми и самыми редкими видами рыб, проходить через яркие локации и заниматься полезным, интересным делом. У тебя есть несколько простых видов водных жителей, которые затем будут постепенно пополняться и размножаться. При правильном уходе у тебя получится создать что-то совершенно уникальное и необычное. Коллекция должна быть заполнена и большими, и маленькими, редкими и самыми красивыми видами. Добиться такого результата будет непросто, ведь необходимо пройти ряд испытаний и столкнуться с преградами на пути. Особое внимание нужно уделить именно среде обитания, ведь в той где могут существовать одни виды, не смогут выжить другие. По управлению и уходу у тебя будет полная свобода действий. Многие виды любят экзотическую пищу, которую ты должен им обеспечить, чтобы они жили в своей среде. Прогрессируй и развивай свои таланты, что даст тебе доступ открыть ещё больше рыб....">
-            <meta property="twitter:image" content="https://thelastgame.ru/wp-content/uploads/2020/02/header-25.jpg">
-        </head>
-        <body>
-            <div style="text-align: center">
-                <img class="gbanner" src="https://thelastgame.ru/wp-content/uploads/2020/02/header-25.jpg">
-                <h1>Fish Simulator: Aquarium Manager</h1>
-                <h5>Fish Simulator Aquarium Manager – красочный и увлекательный симулятор, где ты погрузишься в загадочный и интересный мир аквариума. Постепенно ты будешь знакомиться с новыми и самыми редкими видами рыб, проходить через яркие локации и заниматься полезным, интересным делом. У тебя есть несколько простых видов водных жителей, которые затем будут постепенно пополняться и размножаться. При правильном уходе у тебя получится создать что-то совершенно уникальное и необычное. Коллекция должна быть заполнена и большими, и маленькими, редкими и самыми красивыми видами. Добиться такого результата будет непросто, ведь необходимо пройти ряд испытаний и столкнуться с преградами на пути. Особое внимание нужно уделить именно среде обитания, ведь в той где могут существовать одни виды, не смогут выжить другие. По управлению и уходу у тебя будет полная свобода действий. Многие виды любят экзотическую пищу, которую ты должен им обеспечить, чтобы они жили в своей среде. Прогрессируй и развивай свои таланты, что даст тебе доступ открыть ещё больше рыб.</h5>
-                <img class="screenshot" src="https://thelastgame.ru/wp-content/uploads/2020/02/ss_5d456391d1f64413ec4b32d0cff2582a5a9165b7.1920x1080.jpg"><br><p>Скриншот #0</p>
-    <img class="screenshot" src="https://thelastgame.ru/wp-content/uploads/2020/02/ss_8d7f58cc9fc79c6ef88fb58536fbb06521c25adf.1920x1080.jpg"><br><p>Скриншот #1</p>
-    <img class="screenshot" src="https://thelastgame.ru/wp-content/uploads/2020/02/ss_058a5997415d14770488c6c6ddb28ddb51ca9493.1920x1080.jpg"><br><p>Скриншот #2</p><br>
-                <a class="big_a" href="/games/fish-simulator-aquarium-manager/Fish_Simulator_Aquarium_Manager.torrent">Скачать .torrent</a>
-            </div>
-        </body>
-    </html>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/game.css">
+    <title>Fish Simulator: Aquarium Manager - TheLastMirror</title>
+</head>
+<body>
+    <div class="wrapper">
     
+        <header>
+
+            <a class="logo" href="/">TheLastMirror</a>
+
+        </header>
+
+        <main>
+
+            <div class="line">
+                <span class="header">Fish Simulator: Aquarium Manager</span>
+                <a class="header download" href="/games/fish-simulator-aquarium-manager/Fish_Simulator_Aquarium_Manager.torrent">Скачать .torrent</a>
+            </div>
+
+            <div class="line main">
+                <div class="row">
+                    <img width="460" src="https://thelastgame.ru/wp-content/uploads/2020/02/header-25.jpg " alt="Баннер" class="image">
+                    <div class="screenshots">
+                        <img width="460" src="https://thelastgame.ru/wp-content/uploads/2020/02/ss_5d456391d1f64413ec4b32d0cff2582a5a9165b7.1920x1080.jpg" alt="Скриншот">
+<img width="460" src="https://thelastgame.ru/wp-content/uploads/2020/02/ss_8d7f58cc9fc79c6ef88fb58536fbb06521c25adf.1920x1080.jpg" alt="Скриншот">
+<img width="460" src="https://thelastgame.ru/wp-content/uploads/2020/02/ss_058a5997415d14770488c6c6ddb28ddb51ca9493.1920x1080.jpg" alt="Скриншот">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="description">
+                        Fish Simulator Aquarium Manager – красочный и увлекательный симулятор, где ты погрузишься в загадочный и интересный мир аквариума. Постепенно ты будешь знакомиться с новыми и самыми редкими видами рыб, проходить через яркие локации и заниматься полезным, интересным делом. У тебя есть несколько простых видов водных жителей, которые затем будут постепенно пополняться и размножаться. При правильном уходе у тебя получится создать что-то совершенно уникальное и необычное. Коллекция должна быть заполнена и большими, и маленькими, редкими и самыми красивыми видами. Добиться такого результата будет непросто, ведь необходимо пройти ряд испытаний и столкнуться с преградами на пути. Особое внимание нужно уделить именно среде обитания, ведь в той где могут существовать одни виды, не смогут выжить другие. По управлению и уходу у тебя будет полная свобода действий. Многие виды любят экзотическую пищу, которую ты должен им обеспечить, чтобы они жили в своей среде. Прогрессируй и развивай свои таланты, что даст тебе доступ открыть ещё больше рыб.
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+</body>
+</html>

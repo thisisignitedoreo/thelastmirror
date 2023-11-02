@@ -1,66 +1,45 @@
-<!doctype html>
-    <html>
-        <head>
-            <style>
-                @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
-                :root {
-                    font-family: "Lato", sans-serif;
-                    background-color: rgb(18, 18, 18);
-                    color: #ffffff;
-                }
-                a {
-                    color: #9999ff;
-                }
-                .screenshot {
-                    object-fit: cover;
-                    width: 75%;
-                    max-height: 75%;
-                }
-                .gbanner {
-                    object-fit: cover;
-                    width: 35%;
-                    max-height: 35%;
-                }
-                .grid {
-                    display: grid;
-                    grid-template-columns: 1fr 1fr;
-                    column-gap: 10px;
-                    row-gap: 10px;
-                }
-                .big_a {
-                    font-size: 24px;
-                }
-            </style>
-            <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/thisisignitedoreo/thelastmirror/master/favicon.ico">
-            <title>S.T.A.L.K.E.R: Call of Chernobyl - The Last Mirror</title>
-            <!-- Primary Meta Tags -->
-            <meta name="title" content="S.T.A.L.K.E.R: Call of Chernobyl - TheLastMirror">
-            <meta name="description" content="S.T.A.L.K.E.R Call of Chernobyl (Сталкер: Колл оф Чернобыть \ Зов Чернобыля) – уникальная игровая платформа, которая сплела воедино все уровни трёх предыдущих частей. Данный проект является ничем иным, как фриплейным модом, который состоит из локаций трилогии. Также, здесь ты сможешь насладится такими режимами как прохождение по сюжетной линии, а также выживание в жестоком мире, который населен зодчими мертвецами. Кроме этого, были представлены режимы под названием «Одна жизнь» и режим «Азазель», которые отличаются своей оригинальностью и уникальностью. Значительно была улучшена как графическая составляющая, так и звуковое сопровождение. Также, вы сможете насладится разнообразием орудий убийства и всевозможных дополнительных предметов, которые помогут вам в борьбе с противником. По всей зоне будут разбросаны различные артефакты, собрав которые ты точно станешь лучшим в своём деле. Изменения понесла и торговля, где ты сможешь продавать старое и закупать более усовершенствованное оружие и боеприпасы....">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
 
-            <!-- Open Graph / Facebook -->
-            <meta property="og:type" content="website">
-            <meta property="og:url" content="https://thelastmirror.tk/">
-            <meta property="og:title" content="S.T.A.L.K.E.R: Call of Chernobyl - TheLastMirror">
-            <meta property="og:description" content="S.T.A.L.K.E.R Call of Chernobyl (Сталкер: Колл оф Чернобыть \ Зов Чернобыля) – уникальная игровая платформа, которая сплела воедино все уровни трёх предыдущих частей. Данный проект является ничем иным, как фриплейным модом, который состоит из локаций трилогии. Также, здесь ты сможешь насладится такими режимами как прохождение по сюжетной линии, а также выживание в жестоком мире, который населен зодчими мертвецами. Кроме этого, были представлены режимы под названием «Одна жизнь» и режим «Азазель», которые отличаются своей оригинальностью и уникальностью. Значительно была улучшена как графическая составляющая, так и звуковое сопровождение. Также, вы сможете насладится разнообразием орудий убийства и всевозможных дополнительных предметов, которые помогут вам в борьбе с противником. По всей зоне будут разбросаны различные артефакты, собрав которые ты точно станешь лучшим в своём деле. Изменения понесла и торговля, где ты сможешь продавать старое и закупать более усовершенствованное оружие и боеприпасы....">
-            <meta property="og:image" content="https://thelastgame.ru/wp-content/uploads/2017/11/Stalker-Call-of-Chernobyl-09.png">
-
-            <!-- Twitter -->
-            <meta property="twitter:card" content="summary_large_image">
-            <meta property="twitter:url" content="https://thelastmirror.tk/">
-            <meta property="twitter:title" content="S.T.A.L.K.E.R: Call of Chernobyl - TheLastMirror">
-            <meta property="twitter:description" content="S.T.A.L.K.E.R Call of Chernobyl (Сталкер: Колл оф Чернобыть \ Зов Чернобыля) – уникальная игровая платформа, которая сплела воедино все уровни трёх предыдущих частей. Данный проект является ничем иным, как фриплейным модом, который состоит из локаций трилогии. Также, здесь ты сможешь насладится такими режимами как прохождение по сюжетной линии, а также выживание в жестоком мире, который населен зодчими мертвецами. Кроме этого, были представлены режимы под названием «Одна жизнь» и режим «Азазель», которые отличаются своей оригинальностью и уникальностью. Значительно была улучшена как графическая составляющая, так и звуковое сопровождение. Также, вы сможете насладится разнообразием орудий убийства и всевозможных дополнительных предметов, которые помогут вам в борьбе с противником. По всей зоне будут разбросаны различные артефакты, собрав которые ты точно станешь лучшим в своём деле. Изменения понесла и торговля, где ты сможешь продавать старое и закупать более усовершенствованное оружие и боеприпасы....">
-            <meta property="twitter:image" content="https://thelastgame.ru/wp-content/uploads/2017/11/Stalker-Call-of-Chernobyl-09.png">
-        </head>
-        <body>
-            <div style="text-align: center">
-                <img class="gbanner" src="https://thelastgame.ru/wp-content/uploads/2017/11/Stalker-Call-of-Chernobyl-09.png">
-                <h1>S.T.A.L.K.E.R: Call of Chernobyl</h1>
-                <h5>S.T.A.L.K.E.R Call of Chernobyl (Сталкер: Колл оф Чернобыть \ Зов Чернобыля) – уникальная игровая платформа, которая сплела воедино все уровни трёх предыдущих частей. Данный проект является ничем иным, как фриплейным модом, который состоит из локаций трилогии. Также, здесь ты сможешь насладится такими режимами как прохождение по сюжетной линии, а также выживание в жестоком мире, который населен зодчими мертвецами. Кроме этого, были представлены режимы под названием «Одна жизнь» и режим «Азазель», которые отличаются своей оригинальностью и уникальностью. Значительно была улучшена как графическая составляющая, так и звуковое сопровождение. Также, вы сможете насладится разнообразием орудий убийства и всевозможных дополнительных предметов, которые помогут вам в борьбе с противником. По всей зоне будут разбросаны различные артефакты, собрав которые ты точно станешь лучшим в своём деле. Изменения понесла и торговля, где ты сможешь продавать старое и закупать более усовершенствованное оружие и боеприпасы.</h5>
-                <img class="screenshot" src="https://thelastgame.ru/wp-content/uploads/2017/11/er4kO6qiX_Q.jpg"><br><p>Скриншот #0</p>
-    <img class="screenshot" src="https://thelastgame.ru/wp-content/uploads/2017/11/N7HEqkz2wwc.jpg"><br><p>Скриншот #1</p>
-    <img class="screenshot" src="https://thelastgame.ru/wp-content/uploads/2017/11/prsXdB7NvVQ.jpg"><br><p>Скриншот #2</p><br>
-                <a class="big_a" href="/games/stalker-call-of-chernobyl/STALKER_Call_of_Chernobyl.torrent">Скачать .torrent</a>
-            </div>
-        </body>
-    </html>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/game.css">
+    <title>S.T.A.L.K.E.R: Call of Chernobyl - TheLastMirror</title>
+</head>
+<body>
+    <div class="wrapper">
     
+        <header>
+
+            <a class="logo" href="/">TheLastMirror</a>
+
+        </header>
+
+        <main>
+
+            <div class="line">
+                <span class="header">S.T.A.L.K.E.R: Call of Chernobyl</span>
+                <a class="header download" href="/games/stalker-call-of-chernobyl/STALKER_Call_of_Chernobyl.torrent">Скачать .torrent</a>
+            </div>
+
+            <div class="line main">
+                <div class="row">
+                    <img width="460" src="https://thelastgame.ru/wp-content/uploads/2017/11/Stalker-Call-of-Chernobyl-09.png " alt="Баннер" class="image">
+                    <div class="screenshots">
+                        <img width="460" src="https://thelastgame.ru/wp-content/uploads/2017/11/er4kO6qiX_Q.jpg" alt="Скриншот">
+<img width="460" src="https://thelastgame.ru/wp-content/uploads/2017/11/N7HEqkz2wwc.jpg" alt="Скриншот">
+<img width="460" src="https://thelastgame.ru/wp-content/uploads/2017/11/prsXdB7NvVQ.jpg" alt="Скриншот">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="description">
+                        S.T.A.L.K.E.R Call of Chernobyl (Сталкер: Колл оф Чернобыть \ Зов Чернобыля) – уникальная игровая платформа, которая сплела воедино все уровни трёх предыдущих частей. Данный проект является ничем иным, как фриплейным модом, который состоит из локаций трилогии. Также, здесь ты сможешь насладится такими режимами как прохождение по сюжетной линии, а также выживание в жестоком мире, который населен зодчими мертвецами. Кроме этого, были представлены режимы под названием «Одна жизнь» и режим «Азазель», которые отличаются своей оригинальностью и уникальностью. Значительно была улучшена как графическая составляющая, так и звуковое сопровождение. Также, вы сможете насладится разнообразием орудий убийства и всевозможных дополнительных предметов, которые помогут вам в борьбе с противником. По всей зоне будут разбросаны различные артефакты, собрав которые ты точно станешь лучшим в своём деле. Изменения понесла и торговля, где ты сможешь продавать старое и закупать более усовершенствованное оружие и боеприпасы.
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+</body>
+</html>

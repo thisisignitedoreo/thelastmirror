@@ -1,74 +1,38 @@
-<!doctype html>
-<html>
-    <head>
-        <style>
-            @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
-            :root {
-                font-family: "Lato", sans-serif;
-                background-color: rgb(18, 18, 18);
-                color: #ffffff;
-            }
-            a {
-                color: #9999ff;
-            }
-            .grid {
-                display: grid;
-                grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-                column-gap: 10px;
-                row-gap: 10px;
-            }
-            .big_a {
-                font-size: 24px;
-            }
-        </style>
-        <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/thisisignitedoreo/thelastmirror/master/favicon.ico">
-        <title>The Last Mirror</title>
-        <!-- Primary Meta Tags -->
-        <meta name="title" content="TheLastMirror - Зеркало игр">
-        <meta name="description" content="Здесь ты можешь найти целую кучу игр, часто обновляющихся, от старых до новых.">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
 
-        <!-- Open Graph / Facebook -->
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://thelastmirror.tk/">
-        <meta property="og:title" content="TheLastMirror - Зеркало игр">
-        <meta property="og:description" content="Здесь ты можешь найти целую кучу игр, часто обновляющихся, от старых до новых.">
-        <meta property="og:image" content="https://thelastmirror.tk/promo.png">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <title>TheLastMirror</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
 
-        <!-- Twitter -->
-        <meta property="twitter:card" content="summary_large_image">
-        <meta property="twitter:url" content="https://thelastmirror.tk/">
-        <meta property="twitter:title" content="TheLastMirror - Зеркало игр">
-        <meta property="twitter:description" content="Здесь ты можешь найти целую кучу игр, часто обновляющихся, от старых до новых.">
-        <meta property="twitter:image" content="https://thelastmirror.tk/promo.png">
-    </head>
-    <body>
-        <div style="text-align: center">
-            <h1>The Last Mirror</h1>
-	    <p id="motd">motd не отрисовался ;( у вас что-то с браузером</p>
-	    <div class="grid">
-                <div>
-                    <a href="/paginated-list/">
-                        <h2>Список с обложками и описниями, поделенный на страницы</h2>
-                        <img src="screenshot_1.png">
-                    </a>
-                </div>
-                <div>
-                    <a href="/name-list/">
-                        <h2>Полный список имен</h2>
-                        <img src="screenshot_2.png">
-                    </a>
-                </div>
-            </div>
-            <h6 style="color: #555555">Некоторые игры могут быть без баннера или описания, это нормально, ссылка на скачивание все-равно работает.</h6>
-        </div>
-	<script>
-		function choose(choices) {
-			var index = Math.floor(Math.random() * choices.length);
-			return choices[index];
-		}
-		
-		var motds = ["привет скучающим!", "<a href=\"/games/hentai-girl-linda/\">hehehe</a>", "лол кек чебубек", "+PARRY +ULTRARICOSHOT x4", "сайт открываеться даже с проверками от ростелекома - качайте игры хоть в школе :sunglasses:", "сайт от <a href=\"https://github.com/thisisignitedoreo/\">acid</a>", "bruh", "че зыришь?", ":skull:"];
-		document.getElementById("motd").innerHTML = choose(motds);
-	</script>
-    </body>
+            <a class="logo" href="/">TheLastMirror</a>
+
+            <ul>
+                <li><a href="/paginated-list/">Страничный список</a></li>
+                <li><a href="/name-list/">Одностраничный список</a></li>
+            </ul>
+
+        </header>
+
+        <main>
+
+            <a href="/paginated-list/">
+                <div class="heading">Страничный список</div>
+                <div class="subheading">Список с логотипами и описаниями, поделенный на страницы.</div>
+            </a>
+            <a href="/name-list/">
+                <div class="heading">Одностраничный список</div>
+                <div class="subheading">Список только с названиями игр, для старого-доброго поиска по Ctrl-F</div>
+            </a>
+
+        </main>
+    
+    </div>
+</body>
 </html>

@@ -1,66 +1,45 @@
-<!doctype html>
-    <html>
-        <head>
-            <style>
-                @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
-                :root {
-                    font-family: "Lato", sans-serif;
-                    background-color: rgb(18, 18, 18);
-                    color: #ffffff;
-                }
-                a {
-                    color: #9999ff;
-                }
-                .screenshot {
-                    object-fit: cover;
-                    width: 75%;
-                    max-height: 75%;
-                }
-                .gbanner {
-                    object-fit: cover;
-                    width: 35%;
-                    max-height: 35%;
-                }
-                .grid {
-                    display: grid;
-                    grid-template-columns: 1fr 1fr;
-                    column-gap: 10px;
-                    row-gap: 10px;
-                }
-                .big_a {
-                    font-size: 24px;
-                }
-            </style>
-            <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/thisisignitedoreo/thelastmirror/master/favicon.ico">
-            <title>Monster Energy Supercross - The Official Videogame 3 - The Last Mirror</title>
-            <!-- Primary Meta Tags -->
-            <meta name="title" content="Monster Energy Supercross - The Official Videogame 3 - TheLastMirror">
-            <meta name="description" content="Monster Energy Supercross The Official Videogame 3 – спортивный проект, представленный в жанре симулятора, где ты станешь частью спортивной вселенной мотокросса. Тебя ждёт заряд адреналина, безумные скорости и самые крутые представители этого вида спорта. Скучать тебе точно не придется, так как динамика и безумие игры зашкаливают. Сюжетной линии, как таковой, в данной игре нет. Здесь все будет зависеть от тебя и от твоих действий в роли отважного гонщика. Возьмись за управление высокоскоростным мотоциклом и вместе с ним отправляйся навстречу славе, к самым вершинам карьерной лестницы. Атмосфера в игре воссоздана на отлично, чего разработчики сумели успешно добиться с помощью реалистичной графики и звуковых эффектов. Также не обошли стороной и физическое взаимодействие с миром, что делает приключение ещё более интересным и в то же время более сложным. Детализация и спецэффекты играют немаловажную роль в общем процессе, от чего ты сумеешь почувствовать себя самым настоящим покорителем мира гонок и скорости. У тебя есть уникальный выбор не только транспортных средств, но и трасс, которые ты будешь стремительно покорять, продвигаясь все ближе к поставленной цели....">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
 
-            <!-- Open Graph / Facebook -->
-            <meta property="og:type" content="website">
-            <meta property="og:url" content="https://thelastmirror.tk/">
-            <meta property="og:title" content="Monster Energy Supercross - The Official Videogame 3 - TheLastMirror">
-            <meta property="og:description" content="Monster Energy Supercross The Official Videogame 3 – спортивный проект, представленный в жанре симулятора, где ты станешь частью спортивной вселенной мотокросса. Тебя ждёт заряд адреналина, безумные скорости и самые крутые представители этого вида спорта. Скучать тебе точно не придется, так как динамика и безумие игры зашкаливают. Сюжетной линии, как таковой, в данной игре нет. Здесь все будет зависеть от тебя и от твоих действий в роли отважного гонщика. Возьмись за управление высокоскоростным мотоциклом и вместе с ним отправляйся навстречу славе, к самым вершинам карьерной лестницы. Атмосфера в игре воссоздана на отлично, чего разработчики сумели успешно добиться с помощью реалистичной графики и звуковых эффектов. Также не обошли стороной и физическое взаимодействие с миром, что делает приключение ещё более интересным и в то же время более сложным. Детализация и спецэффекты играют немаловажную роль в общем процессе, от чего ты сумеешь почувствовать себя самым настоящим покорителем мира гонок и скорости. У тебя есть уникальный выбор не только транспортных средств, но и трасс, которые ты будешь стремительно покорять, продвигаясь все ближе к поставленной цели....">
-            <meta property="og:image" content="https://thelastgame.ru/wp-content/uploads/2020/02/header-5.jpg">
-
-            <!-- Twitter -->
-            <meta property="twitter:card" content="summary_large_image">
-            <meta property="twitter:url" content="https://thelastmirror.tk/">
-            <meta property="twitter:title" content="Monster Energy Supercross - The Official Videogame 3 - TheLastMirror">
-            <meta property="twitter:description" content="Monster Energy Supercross The Official Videogame 3 – спортивный проект, представленный в жанре симулятора, где ты станешь частью спортивной вселенной мотокросса. Тебя ждёт заряд адреналина, безумные скорости и самые крутые представители этого вида спорта. Скучать тебе точно не придется, так как динамика и безумие игры зашкаливают. Сюжетной линии, как таковой, в данной игре нет. Здесь все будет зависеть от тебя и от твоих действий в роли отважного гонщика. Возьмись за управление высокоскоростным мотоциклом и вместе с ним отправляйся навстречу славе, к самым вершинам карьерной лестницы. Атмосфера в игре воссоздана на отлично, чего разработчики сумели успешно добиться с помощью реалистичной графики и звуковых эффектов. Также не обошли стороной и физическое взаимодействие с миром, что делает приключение ещё более интересным и в то же время более сложным. Детализация и спецэффекты играют немаловажную роль в общем процессе, от чего ты сумеешь почувствовать себя самым настоящим покорителем мира гонок и скорости. У тебя есть уникальный выбор не только транспортных средств, но и трасс, которые ты будешь стремительно покорять, продвигаясь все ближе к поставленной цели....">
-            <meta property="twitter:image" content="https://thelastgame.ru/wp-content/uploads/2020/02/header-5.jpg">
-        </head>
-        <body>
-            <div style="text-align: center">
-                <img class="gbanner" src="https://thelastgame.ru/wp-content/uploads/2020/02/header-5.jpg">
-                <h1>Monster Energy Supercross - The Official Videogame 3</h1>
-                <h5>Monster Energy Supercross The Official Videogame 3 – спортивный проект, представленный в жанре симулятора, где ты станешь частью спортивной вселенной мотокросса. Тебя ждёт заряд адреналина, безумные скорости и самые крутые представители этого вида спорта. Скучать тебе точно не придется, так как динамика и безумие игры зашкаливают. Сюжетной линии, как таковой, в данной игре нет. Здесь все будет зависеть от тебя и от твоих действий в роли отважного гонщика. Возьмись за управление высокоскоростным мотоциклом и вместе с ним отправляйся навстречу славе, к самым вершинам карьерной лестницы. Атмосфера в игре воссоздана на отлично, чего разработчики сумели успешно добиться с помощью реалистичной графики и звуковых эффектов. Также не обошли стороной и физическое взаимодействие с миром, что делает приключение ещё более интересным и в то же время более сложным. Детализация и спецэффекты играют немаловажную роль в общем процессе, от чего ты сумеешь почувствовать себя самым настоящим покорителем мира гонок и скорости. У тебя есть уникальный выбор не только транспортных средств, но и трасс, которые ты будешь стремительно покорять, продвигаясь все ближе к поставленной цели.</h5>
-                <img class="screenshot" src="https://thelastgame.ru/wp-content/uploads/2020/02/ss_7ddc66821b1960b9ba27998a7be88c27e2069021.1920x1080.jpg"><br><p>Скриншот #0</p>
-    <img class="screenshot" src="https://thelastgame.ru/wp-content/uploads/2020/02/ss_74e1ed6a350263a56d1819635fb1f0fb1517abe8.1920x1080.jpg"><br><p>Скриншот #1</p>
-    <img class="screenshot" src="https://thelastgame.ru/wp-content/uploads/2020/02/ss_e56bc03159549be096d7e31a53dab86d7b539a4d.1920x1080.jpg"><br><p>Скриншот #2</p><br>
-                <a class="big_a" href="/games/monster-energy-supercross-the-official-videogame-3/Monster_Energy_Supercross_The_Official_Videogame_3.torrent">Скачать .torrent</a>
-            </div>
-        </body>
-    </html>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/game.css">
+    <title>Monster Energy Supercross - The Official Videogame 3 - TheLastMirror</title>
+</head>
+<body>
+    <div class="wrapper">
     
+        <header>
+
+            <a class="logo" href="/">TheLastMirror</a>
+
+        </header>
+
+        <main>
+
+            <div class="line">
+                <span class="header">Monster Energy Supercross - The Official Videogame 3</span>
+                <a class="header download" href="/games/monster-energy-supercross-the-official-videogame-3/Monster_Energy_Supercross_The_Official_Videogame_3.torrent">Скачать .torrent</a>
+            </div>
+
+            <div class="line main">
+                <div class="row">
+                    <img width="460" src="https://thelastgame.ru/wp-content/uploads/2020/02/header-5.jpg " alt="Баннер" class="image">
+                    <div class="screenshots">
+                        <img width="460" src="https://thelastgame.ru/wp-content/uploads/2020/02/ss_7ddc66821b1960b9ba27998a7be88c27e2069021.1920x1080.jpg" alt="Скриншот">
+<img width="460" src="https://thelastgame.ru/wp-content/uploads/2020/02/ss_74e1ed6a350263a56d1819635fb1f0fb1517abe8.1920x1080.jpg" alt="Скриншот">
+<img width="460" src="https://thelastgame.ru/wp-content/uploads/2020/02/ss_e56bc03159549be096d7e31a53dab86d7b539a4d.1920x1080.jpg" alt="Скриншот">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="description">
+                        Monster Energy Supercross The Official Videogame 3 – спортивный проект, представленный в жанре симулятора, где ты станешь частью спортивной вселенной мотокросса. Тебя ждёт заряд адреналина, безумные скорости и самые крутые представители этого вида спорта. Скучать тебе точно не придется, так как динамика и безумие игры зашкаливают. Сюжетной линии, как таковой, в данной игре нет. Здесь все будет зависеть от тебя и от твоих действий в роли отважного гонщика. Возьмись за управление высокоскоростным мотоциклом и вместе с ним отправляйся навстречу славе, к самым вершинам карьерной лестницы. Атмосфера в игре воссоздана на отлично, чего разработчики сумели успешно добиться с помощью реалистичной графики и звуковых эффектов. Также не обошли стороной и физическое взаимодействие с миром, что делает приключение ещё более интересным и в то же время более сложным. Детализация и спецэффекты играют немаловажную роль в общем процессе, от чего ты сумеешь почувствовать себя самым настоящим покорителем мира гонок и скорости. У тебя есть уникальный выбор не только транспортных средств, но и трасс, которые ты будешь стремительно покорять, продвигаясь все ближе к поставленной цели.
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+</body>
+</html>
